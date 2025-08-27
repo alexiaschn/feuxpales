@@ -1,0 +1,938 @@
+{
+  "display001": {
+    "id": "display001",
+    "label": "Display contenu dans space0003 (espace Remps)",
+    "template": "The display001 is here. The description of the display001 is \"\". Understand \"Display contenu dans space0003 (espace Remps)\" as the display001. The display001 is fixed in place."
+  },
+  "display002": {
+    "id": "display002",
+    "label": null,
+    "template": "The display002 is here. The description of the display002 is \"\". Understand \"None\" as the display002. The display002 is fixed in place."
+  },
+  "element0004": {
+    "id": "element0004",
+    "label": "Cimaise du code-barres",
+    "template": "The element0004 is here. The description of the element0004 is \"\". Understand \"Cimaise du code-barres\" as the element0004. The element0004 is fixed in place."
+  },
+  "element0005": {
+    "id": "element0005",
+    "label": "Cimaise du préambule",
+    "template": "The element0005 is here. The description of the element0005 is \"\". Understand \"Cimaise du préambule\" as the element0005. The element0005 is fixed in place."
+  },
+  "element0006": {
+    "id": "element0006",
+    "label": "cimaise faisant face au mur de la porte d’entrée",
+    "template": "The element0006 is here. The description of the element0006 is \"\". Understand \"cimaise faisant face au mur de la porte d’entrée\" as the element0006. The element0006 is fixed in place."
+  },
+  "element0007": {
+    "id": "element0007",
+    "label": "mur de la porte d’entrée",
+    "template": "The element0007 is here. The description of the element0007 is \"\". Understand \"mur de la porte d’entrée\" as the element0007. The element0007 is fixed in place."
+  },
+  "element0008": {
+    "id": "element0008",
+    "label": "Porte d’entrée",
+    "template": "The element0008 is here. The description of the element0008 is \"\". Understand \"Porte d’entrée\" as the element0008. The element0008 is fixed in place."
+  },
+  "element0009": {
+    "id": "element0009",
+    "label": "cimaise Remps",
+    "template": "The element0009 is here. The description of the element0009 is \"\". Understand \"cimaise Remps\" as the element0009. The element0009 is fixed in place."
+  },
+  "element0010": {
+    "id": "element0010",
+    "label": "cimaise de la salle 1",
+    "template": "The element0010 is here. The description of the element0010 is \"\". Understand \"cimaise de la salle 1\" as the element0010. The element0010 is fixed in place."
+  },
+  "element0011": {
+    "id": "element0011",
+    "label": "cimaise de la salle 1",
+    "template": "The element0011 is here. The description of the element0011 is \"\". Understand \"cimaise de la salle 1\" as the element0011. The element0011 is fixed in place."
+  },
+  "element0012": {
+    "id": "element0012",
+    "label": "cimaise de la salle 1",
+    "template": "The element0012 is here. The description of the element0012 is \"\". Understand \"cimaise de la salle 1\" as the element0012. The element0012 is fixed in place."
+  },
+  "element0013": {
+    "id": "element0013",
+    "label": "vitrine vis-à-vis Remps",
+    "template": "The element0013 is here. The description of the element0013 is \"\". Understand \"vitrine vis-à-vis Remps\" as the element0013. The element0013 is fixed in place."
+  },
+  "element0014": {
+    "id": "element0014",
+    "label": "Socle de Platon",
+    "template": "The element0014 is here. The description of the element0014 is \"\". Understand \"Socle de Platon\" as the element0014. The element0014 is fixed in place."
+  },
+  "element0015": {
+    "id": "element0015",
+    "label": null,
+    "template": "The element0015 is a closed container. display002 are in element0015.",
+    "contains": [
+      "display002"
+    ]
+  },
+  "element0016": {
+    "id": "element0016",
+    "label": "vitrine (vers le bas du plan)",
+    "template": "The element0016 is here. The description of the element0016 is \"\". Understand \"vitrine (vers le bas du plan)\" as the element0016. The element0016 is fixed in place."
+  },
+  "element0017": {
+    "id": "element0017",
+    "label": null,
+    "template": "The element0017 is here. The description of the element0017 is \"\". Understand \"None\" as the element0017. The element0017 is fixed in place."
+  },
+  "element0018": {
+    "id": "element0018",
+    "label": null,
+    "template": "The element0018 is here. The description of the element0018 is \"\". Understand \"None\" as the element0018. The element0018 is fixed in place."
+  },
+  "element0019": {
+    "id": "element0019",
+    "label": null,
+    "template": "The element0019 is here. The description of the element0019 is \"\". Understand \"None\" as the element0019. The element0019 is fixed in place."
+  },
+  "element0020": {
+    "id": "element0020",
+    "label": null,
+    "template": "The element0020 is here. The description of the element0020 is \"\". Understand \"None\" as the element0020. The element0020 is fixed in place."
+  },
+  "element0021": {
+    "id": "element0021",
+    "label": "cimaise de la salle 2 haut",
+    "template": "The element0021 is here. The description of the element0021 is \"\". Understand \"cimaise de la salle 2 haut\" as the element0021. The element0021 is fixed in place."
+  },
+  "element0022": {
+    "id": "element0022",
+    "label": "cimaise de la salle 2 gauche",
+    "template": "The element0022 is here. The description of the element0022 is \"\". Understand \"cimaise de la salle 2 gauche\" as the element0022. The element0022 is fixed in place."
+  },
+  "element0023": {
+    "id": "element0023",
+    "label": "cimaise de la salle 2 bas",
+    "template": "The element0023 is here. The description of the element0023 is \"\". Understand \"cimaise de la salle 2 bas\" as the element0023. The element0023 is fixed in place."
+  },
+  "element0024": {
+    "id": "element0024",
+    "label": "cimaise de la salle 2 droite",
+    "template": "The element0024 is here. The description of the element0024 is \"\". Understand \"cimaise de la salle 2 droite\" as the element0024. The element0024 is fixed in place."
+  },
+  "element0025": {
+    "id": "element0025",
+    "label": "vitrine archive",
+    "template": "The element0025 is a closed container. exhibit0026the exhibit0027the exhibit0028the exhibit0029the exhibit0030 are in element0025.",
+    "contains": [
+      "exhibit0026",
+      "exhibit0027",
+      "exhibit0028",
+      "exhibit0029",
+      "exhibit0030"
+    ]
+  },
+  "element0026": {
+    "id": "element0026",
+    "label": "cimaise de la salle 4",
+    "template": "The element0026 is here. The description of the element0026 is \"\". Understand \"cimaise de la salle 4\" as the element0026. The element0026 is fixed in place."
+  },
+  "element0027": {
+    "id": "element0027",
+    "label": "socle",
+    "template": "The element0027 is here. The description of the element0027 is \"\". Understand \"socle\" as the element0027. The element0027 is fixed in place."
+  },
+  "element0028": {
+    "id": "element0028",
+    "label": "socle",
+    "template": "The element0028 is here. The description of the element0028 is \"\". Understand \"socle\" as the element0028. The element0028 is fixed in place."
+  },
+  "element0029": {
+    "id": "element0029",
+    "label": "socle de fontaine",
+    "template": "The element0029 is here. The description of the element0029 is \"\". Understand \"socle de fontaine\" as the element0029. The element0029 is fixed in place."
+  },
+  "element0030": {
+    "id": "element0030",
+    "label": null,
+    "template": "The element0030 is here. The description of the element0030 is \"\". Understand \"None\" as the element0030. The element0030 is fixed in place."
+  },
+  "element0031": {
+    "id": "element0031",
+    "label": null,
+    "template": "The element0031 is here. The description of the element0031 is \"\". Understand \"None\" as the element0031. The element0031 is fixed in place."
+  },
+  "element0032": {
+    "id": "element0032",
+    "label": null,
+    "template": "The element0032 is here. The description of the element0032 is \"\". Understand \"None\" as the element0032. The element0032 is fixed in place."
+  },
+  "element0033": {
+    "id": "element0033",
+    "label": null,
+    "template": "The element0033 is here. The description of the element0033 is \"\". Understand \"None\" as the element0033. The element0033 is fixed in place."
+  },
+  "element0040": {
+    "id": "element0040",
+    "label": null,
+    "template": "The element0040 is here. The description of the element0040 is \"\". Understand \"None\" as the element0040. The element0040 is fixed in place."
+  },
+  "element0041": {
+    "id": "element0041",
+    "label": null,
+    "template": "The element0041 is here. The description of the element0041 is \"\". Understand \"None\" as the element0041. The element0041 is fixed in place."
+  },
+  "element0042": {
+    "id": "element0042",
+    "label": null,
+    "template": "The element0042 is here. The description of the element0042 is \"\". Understand \"None\" as the element0042. The element0042 is fixed in place."
+  },
+  "element0043": {
+    "id": "element0043",
+    "label": null,
+    "template": "The element0043 is here. The description of the element0043 is \"\". Understand \"None\" as the element0043. The element0043 is fixed in place."
+  },
+  "element0044": {
+    "id": "element0044",
+    "label": null,
+    "template": "The element0044 is here. The description of the element0044 is \"\". Understand \"None\" as the element0044. The element0044 is fixed in place."
+  },
+  "element0045": {
+    "id": "element0045",
+    "label": null,
+    "template": "The element0045 is here. The description of the element0045 is \"\". Understand \"None\" as the element0045. The element0045 is fixed in place."
+  },
+  "element0046": {
+    "id": "element0046",
+    "label": null,
+    "template": "The element0046 is here. The description of the element0046 is \"\". Understand \"None\" as the element0046. The element0046 is fixed in place."
+  },
+  "element0047": {
+    "id": "element0047",
+    "label": null,
+    "template": "The element0047 is here. The description of the element0047 is \"\". Understand \"None\" as the element0047. The element0047 is fixed in place."
+  },
+  "element0048": {
+    "id": "element0048",
+    "label": null,
+    "template": "The element0048 is here. The description of the element0048 is \"\". Understand \"None\" as the element0048. The element0048 is fixed in place."
+  },
+  "element0049": {
+    "id": "element0049",
+    "label": "vitrine œuvres",
+    "template": "The element0049 is a closed container. exhibit0048the exhibit0049the exhibit0065 are in element0049.",
+    "contains": [
+      "exhibit0048",
+      "exhibit0049",
+      "exhibit0065"
+    ]
+  },
+  "element0050": {
+    "id": "element0050",
+    "label": null,
+    "template": "The element0050 is here. The description of the element0050 is \"\". Understand \"None\" as the element0050. The element0050 is fixed in place."
+  },
+  "element0051": {
+    "id": "element0051",
+    "label": null,
+    "template": "The element0051 is here. The description of the element0051 is \"\". Understand \"None\" as the element0051. The element0051 is fixed in place."
+  },
+  "element0052": {
+    "id": "element0052",
+    "label": null,
+    "template": "The element0052 is here. The description of the element0052 is \"\". Understand \"None\" as the element0052. The element0052 is fixed in place."
+  },
+  "element0053": {
+    "id": "element0053",
+    "label": null,
+    "template": "The element0053 is here. The description of the element0053 is \"\". Understand \"None\" as the element0053. The element0053 is fixed in place."
+  },
+  "element0054": {
+    "id": "element0054",
+    "label": "Cimaise du haut (perspective plan, cf. Renaudie), salle 8",
+    "template": "The element0054 is here. The description of the element0054 is \"\". Understand \"Cimaise du haut (perspective plan, cf. Renaudie), salle 8\" as the element0054. The element0054 is fixed in place."
+  },
+  "element0055": {
+    "id": "element0055",
+    "label": "Cimaise Broodthaers, salle 8",
+    "template": "The element0055 is here. The description of the element0055 is \"\". Understand \"Cimaise Broodthaers, salle 8\" as the element0055. The element0055 is fixed in place."
+  },
+  "exhibit0001": {
+    "id": "exhibit0001",
+    "label": null,
+    "template": "The exhibit0001 is here. The description of the exhibit0001 is \"\". Understand \"None\" as the exhibit0001. The exhibit0001 is fixed in place."
+  },
+  "exhibit0002": {
+    "id": "exhibit0002",
+    "label": null,
+    "template": "The exhibit0002 is here. The description of the exhibit0002 is \"\". Understand \"None\" as the exhibit0002. The exhibit0002 is fixed in place."
+  },
+  "exhibit0003": {
+    "id": "exhibit0003",
+    "label": "Crédits",
+    "template": "The exhibit0003 is here. The description of the exhibit0003 is \"\". Understand \"Crédits\" as the exhibit0003. The exhibit0003 is fixed in place."
+  },
+  "exhibit0004": {
+    "id": "exhibit0004",
+    "label": null,
+    "template": "The exhibit0004 is here. The description of the exhibit0004 is \"\". Understand \"None\" as the exhibit0004. The exhibit0004 is fixed in place."
+  },
+  "exhibit0005": {
+    "id": "exhibit0005",
+    "label": null,
+    "template": "The exhibit0005 is here. The description of the exhibit0005 is \"\". Understand \"None\" as the exhibit0005. The exhibit0005 is fixed in place."
+  },
+  "exhibit0006": {
+    "id": "exhibit0006",
+    "label": "Buste de Platon",
+    "template": "The exhibit0006 is here. The description of the exhibit0006 is \"\". Understand \"Buste de Platon\" as the exhibit0006. The exhibit0006 is fixed in place.The exhibit0006 is on the ",
+    "liesOn": "element0014"
+  },
+  "exhibit0007": {
+    "id": "exhibit0007",
+    "label": "Buste de Simonide",
+    "template": "The exhibit0007 is here. The description of the exhibit0007 is \"\". Understand \"Buste de Simonide\" as the exhibit0007. The exhibit0007 is fixed in place."
+  },
+  "exhibit0008": {
+    "id": "exhibit0008",
+    "label": "Buste d’Aristote",
+    "template": "The exhibit0008 is here. The description of the exhibit0008 is \"\". Understand \"Buste d’Aristote\" as the exhibit0008. The exhibit0008 is fixed in place."
+  },
+  "exhibit0009": {
+    "id": "exhibit0009",
+    "label": "Buste de Quintilien",
+    "template": "The exhibit0009 is here. The description of the exhibit0009 is \"\". Understand \"Buste de Quintilien\" as the exhibit0009. The exhibit0009 is fixed in place."
+  },
+  "exhibit0010": {
+    "id": "exhibit0010",
+    "label": null,
+    "template": "The exhibit0010 is here. The description of the exhibit0010 is \"\". Understand \"None\" as the exhibit0010. The exhibit0010 is fixed in place."
+  },
+  "exhibit0011": {
+    "id": "exhibit0011",
+    "label": null,
+    "template": "The exhibit0011 is here. The description of the exhibit0011 is \"\". Understand \"None\" as the exhibit0011. The exhibit0011 is fixed in place."
+  },
+  "exhibit0012": {
+    "id": "exhibit0012",
+    "label": null,
+    "template": "The exhibit0012 is here. The description of the exhibit0012 is \"\". Understand \"None\" as the exhibit0012. The exhibit0012 is fixed in place."
+  },
+  "exhibit0013": {
+    "id": "exhibit0013",
+    "label": "Spoerri",
+    "template": "The exhibit0013 is here. The description of the exhibit0013 is \"\". Understand \"Spoerri\" as the exhibit0013. The exhibit0013 is fixed in place."
+  },
+  "exhibit0014": {
+    "id": "exhibit0014",
+    "label": "Roth",
+    "template": "The exhibit0014 is here. The description of the exhibit0014 is \"\". Understand \"Roth\" as the exhibit0014. The exhibit0014 is fixed in place.The exhibit0014 is on the ",
+    "liesOn": "element0028"
+  },
+  "exhibit0015": {
+    "id": "exhibit0015",
+    "label": null,
+    "template": "The exhibit0015 is here. The description of the exhibit0015 is \"\". Understand \"None\" as the exhibit0015. The exhibit0015 is fixed in place.The exhibit0015 is on the ",
+    "liesOn": "element0029"
+  },
+  "exhibit0016": {
+    "id": "exhibit0016",
+    "label": "Manzoni",
+    "template": "The exhibit0016 is here. The description of the exhibit0016 is \"\". Understand \"Manzoni\" as the exhibit0016. The exhibit0016 is fixed in place.The exhibit0016 is on the ",
+    "liesOn": "element0027"
+  },
+  "exhibit0017": {
+    "id": "exhibit0017",
+    "label": "Beuys",
+    "template": "The exhibit0017 is here. The description of the exhibit0017 is \"\". Understand \"Beuys\" as the exhibit0017. The exhibit0017 is fixed in place."
+  },
+  "exhibit0021": {
+    "id": "exhibit0021",
+    "label": "Janssens 1",
+    "template": "The exhibit0021 is here. The description of the exhibit0021 is \"\". Understand \"Janssens 1\" as the exhibit0021. The exhibit0021 is fixed in place."
+  },
+  "exhibit0022": {
+    "id": "exhibit0022",
+    "label": "Janssens 2",
+    "template": "The exhibit0022 is here. The description of the exhibit0022 is \"\". Understand \"Janssens 2\" as the exhibit0022. The exhibit0022 is fixed in place."
+  },
+  "exhibit0023": {
+    "id": "exhibit0023",
+    "label": "Francken",
+    "template": "The exhibit0023 is here. The description of the exhibit0023 is \"\". Understand \"Francken\" as the exhibit0023. The exhibit0023 is fixed in place."
+  },
+  "exhibit0024": {
+    "id": "exhibit0024",
+    "label": "Pannini",
+    "template": "The exhibit0024 is here. The description of the exhibit0024 is \"\". Understand \"Pannini\" as the exhibit0024. The exhibit0024 is fixed in place."
+  },
+  "exhibit0025": {
+    "id": "exhibit0025",
+    "label": "Thomas",
+    "template": "The exhibit0025 is here. The description of the exhibit0025 is \"\". Understand \"Thomas\" as the exhibit0025. The exhibit0025 is fixed in place."
+  },
+  "exhibit0026": {
+    "id": "exhibit0026",
+    "label": "Klein",
+    "template": "The exhibit0026 is here. The description of the exhibit0026 is \"\". Understand \"Klein\" as the exhibit0026. The exhibit0026 is fixed in place."
+  },
+  "exhibit0027": {
+    "id": "exhibit0027",
+    "label": "Wilson",
+    "template": "The exhibit0027 is here. The description of the exhibit0027 is \"\". Understand \"Wilson\" as the exhibit0027. The exhibit0027 is fixed in place."
+  },
+  "exhibit0028": {
+    "id": "exhibit0028",
+    "label": "Dibbets",
+    "template": "The exhibit0028 is here. The description of the exhibit0028 is \"\". Understand \"Dibbets\" as the exhibit0028. The exhibit0028 is fixed in place."
+  },
+  "exhibit0029": {
+    "id": "exhibit0029",
+    "label": "Long",
+    "template": "The exhibit0029 is here. The description of the exhibit0029 is \"\". Understand \"Long\" as the exhibit0029. The exhibit0029 is fixed in place."
+  },
+  "exhibit0030": {
+    "id": "exhibit0030",
+    "label": "Smithson",
+    "template": "The exhibit0030 is here. The description of the exhibit0030 is \"\". Understand \"Smithson\" as the exhibit0030. The exhibit0030 is fixed in place."
+  },
+  "exhibit0031": {
+    "id": "exhibit0031",
+    "label": "McCollum",
+    "template": "The exhibit0031 is here. The description of the exhibit0031 is \"\". Understand \"McCollum\" as the exhibit0031. The exhibit0031 is fixed in place."
+  },
+  "exhibit0032": {
+    "id": "exhibit0032",
+    "label": "Richter 1",
+    "template": "The exhibit0032 is here. The description of the exhibit0032 is \"\". Understand \"Richter 1\" as the exhibit0032. The exhibit0032 is fixed in place."
+  },
+  "exhibit0033": {
+    "id": "exhibit0033",
+    "label": "Richter 2",
+    "template": "The exhibit0033 is here. The description of the exhibit0033 is \"\". Understand \"Richter 2\" as the exhibit0033. The exhibit0033 is fixed in place."
+  },
+  "exhibit0034": {
+    "id": "exhibit0034",
+    "label": "Clairet",
+    "template": "The exhibit0034 is here. The description of the exhibit0034 is \"\". Understand \"Clairet\" as the exhibit0034. The exhibit0034 is fixed in place."
+  },
+  "exhibit0035": {
+    "id": "exhibit0035",
+    "label": "Charlton",
+    "template": "The exhibit0035 is here. The description of the exhibit0035 is \"\". Understand \"Charlton\" as the exhibit0035. The exhibit0035 is fixed in place."
+  },
+  "exhibit0036": {
+    "id": "exhibit0036",
+    "label": "Dimitrijevic",
+    "template": "The exhibit0036 is here. The description of the exhibit0036 is \"\". Understand \"Dimitrijevic\" as the exhibit0036. The exhibit0036 is fixed in place."
+  },
+  "exhibit0037": {
+    "id": "exhibit0037",
+    "label": null,
+    "template": "The exhibit0037 is here. The description of the exhibit0037 is \"\". Understand \"None\" as the exhibit0037. The exhibit0037 is fixed in place."
+  },
+  "exhibit0038": {
+    "id": "exhibit0038",
+    "label": "Lévine 1",
+    "template": "The exhibit0038 is here. The description of the exhibit0038 is \"\". Understand \"Lévine 1\" as the exhibit0038. The exhibit0038 is fixed in place."
+  },
+  "exhibit0039": {
+    "id": "exhibit0039",
+    "label": "Lévine 2",
+    "template": "The exhibit0039 is here. The description of the exhibit0039 is \"\". Understand \"Lévine 2\" as the exhibit0039. The exhibit0039 is fixed in place."
+  },
+  "exhibit0040": {
+    "id": "exhibit0040",
+    "label": "Linke",
+    "template": "The exhibit0040 is here. The description of the exhibit0040 is \"\". Understand \"Linke\" as the exhibit0040. The exhibit0040 is fixed in place."
+  },
+  "exhibit0041": {
+    "id": "exhibit0041",
+    "label": null,
+    "template": "The exhibit0041 is here. The description of the exhibit0041 is \"\". Understand \"None\" as the exhibit0041. The exhibit0041 is fixed in place."
+  },
+  "exhibit0042": {
+    "id": "exhibit0042",
+    "label": "Souvenir écran",
+    "template": "The exhibit0042 is here. The description of the exhibit0042 is \"\". Understand \"Souvenir écran\" as the exhibit0042. The exhibit0042 is fixed in place."
+  },
+  "exhibit0043": {
+    "id": "exhibit0043",
+    "label": "Duchamp 1",
+    "template": "The exhibit0043 is here. The description of the exhibit0043 is \"\". Understand \"Duchamp 1\" as the exhibit0043. The exhibit0043 is fixed in place."
+  },
+  "exhibit0044": {
+    "id": "exhibit0044",
+    "label": "Duchamp 2",
+    "template": "The exhibit0044 is here. The description of the exhibit0044 is \"\". Understand \"Duchamp 2\" as the exhibit0044. The exhibit0044 is fixed in place."
+  },
+  "exhibit0045": {
+    "id": "exhibit0045",
+    "label": "Venazzo",
+    "template": "The exhibit0045 is here. The description of the exhibit0045 is \"\". Understand \"Venazzo\" as the exhibit0045. The exhibit0045 is fixed in place."
+  },
+  "exhibit0046": {
+    "id": "exhibit0046",
+    "label": "Broodthaers, salle 8",
+    "template": "The exhibit0046 is here. The description of the exhibit0046 is \"\". Understand \"Broodthaers, salle 8\" as the exhibit0046. The exhibit0046 is fixed in place."
+  },
+  "exhibit0047": {
+    "id": "exhibit0047",
+    "label": "Haacke",
+    "template": "The exhibit0047 is here. The description of the exhibit0047 is \"\". Understand \"Haacke\" as the exhibit0047. The exhibit0047 is fixed in place."
+  },
+  "exhibit0048": {
+    "id": "exhibit0048",
+    "label": "Manzoni 1",
+    "template": "The exhibit0048 is here. The description of the exhibit0048 is \"\". Understand \"Manzoni 1\" as the exhibit0048. The exhibit0048 is fixed in place."
+  },
+  "exhibit0049": {
+    "id": "exhibit0049",
+    "label": "Duchamp 3",
+    "template": "The exhibit0049 is here. The description of the exhibit0049 is \"\". Understand \"Duchamp 3\" as the exhibit0049. The exhibit0049 is fixed in place."
+  },
+  "exhibit0050": {
+    "id": "exhibit0050",
+    "label": "Broodthaers (salle 9)",
+    "template": "The exhibit0050 is here. The description of the exhibit0050 is \"\". Understand \"Broodthaers (salle 9)\" as the exhibit0050. The exhibit0050 is fixed in place."
+  },
+  "exhibit0051": {
+    "id": "exhibit0051",
+    "label": "Parcelle à céder",
+    "template": "The exhibit0051 is here. The description of the exhibit0051 is \"\". Understand \"Parcelle à céder\" as the exhibit0051. The exhibit0051 is fixed in place."
+  },
+  "exhibit0052": {
+    "id": "exhibit0052",
+    "label": "Blondeau",
+    "template": "The exhibit0052 is here. The description of the exhibit0052 is \"\". Understand \"Blondeau\" as the exhibit0052. The exhibit0052 is fixed in place."
+  },
+  "exhibit0053": {
+    "id": "exhibit0053",
+    "label": "Morris",
+    "template": "The exhibit0053 is here. The description of the exhibit0053 is \"\". Understand \"Morris\" as the exhibit0053. The exhibit0053 is fixed in place."
+  },
+  "exhibit0054": {
+    "id": "exhibit0054",
+    "label": "Ready-made",
+    "template": "The exhibit0054 is here. The description of the exhibit0054 is \"\". Understand \"Ready-made\" as the exhibit0054. The exhibit0054 is fixed in place."
+  },
+  "exhibit0055": {
+    "id": "exhibit0055",
+    "label": "Ready-made 2",
+    "template": "The exhibit0055 is here. The description of the exhibit0055 is \"\". Understand \"Ready-made 2\" as the exhibit0055. The exhibit0055 is fixed in place."
+  },
+  "exhibit0056": {
+    "id": "exhibit0056",
+    "label": null,
+    "template": "The exhibit0056 is here. The description of the exhibit0056 is \"\". Understand \"None\" as the exhibit0056. The exhibit0056 is fixed in place."
+  },
+  "exhibit0057": {
+    "id": "exhibit0057",
+    "label": "Löcher",
+    "template": "The exhibit0057 is here. The description of the exhibit0057 is \"\". Understand \"Löcher\" as the exhibit0057. The exhibit0057 is fixed in place."
+  },
+  "exhibit0058": {
+    "id": "exhibit0058",
+    "label": null,
+    "template": "The exhibit0058 is here. The description of the exhibit0058 is \"\". Understand \"None\" as the exhibit0058. The exhibit0058 is fixed in place."
+  },
+  "exhibit0059": {
+    "id": "exhibit0059",
+    "label": null,
+    "template": "The exhibit0059 is here. The description of the exhibit0059 is \"\". Understand \"None\" as the exhibit0059. The exhibit0059 is fixed in place."
+  },
+  "exhibit0060": {
+    "id": "exhibit0060",
+    "label": null,
+    "template": "The exhibit0060 is here. The description of the exhibit0060 is \"\". Understand \"None\" as the exhibit0060. The exhibit0060 is fixed in place."
+  },
+  "exhibit0061": {
+    "id": "exhibit0061",
+    "label": null,
+    "template": "The exhibit0061 is here. The description of the exhibit0061 is \"\". Understand \"None\" as the exhibit0061. The exhibit0061 is fixed in place."
+  },
+  "exhibit0062": {
+    "id": "exhibit0062",
+    "label": null,
+    "template": "The exhibit0062 is here. The description of the exhibit0062 is \"\". Understand \"None\" as the exhibit0062. The exhibit0062 is fixed in place."
+  },
+  "interface0000": {
+    "id": "interface0000",
+    "label": null,
+    "template": "The interface0000 is here. The description of the interface0000 is \"\". Understand \"None\" as the interface0000. The interface0000 is fixed in place."
+  },
+  "interface0001": {
+    "id": "interface0001",
+    "label": null,
+    "template": "The interface0001 is here. The description of the interface0001 is \"\". Understand \"None\" as the interface0001. The interface0001 is fixed in place."
+  },
+  "interface0002": {
+    "id": "interface0002",
+    "label": null,
+    "template": "The interface0002 is here. The description of the interface0002 is \"\". Understand \"None\" as the interface0002. The interface0002 is fixed in place."
+  },
+  "interface0003": {
+    "id": "interface0003",
+    "label": null,
+    "template": "The interface0003 is here. The description of the interface0003 is \"\". Understand \"None\" as the interface0003. The interface0003 is fixed in place."
+  },
+  "interface0004": {
+    "id": "interface0004",
+    "label": null,
+    "template": "The interface0004 is here. The description of the interface0004 is \"\". Understand \"None\" as the interface0004. The interface0004 is fixed in place."
+  },
+  "interface0005": {
+    "id": "interface0005",
+    "label": null,
+    "template": "The interface0005 is here. The description of the interface0005 is \"\". Understand \"None\" as the interface0005. The interface0005 is fixed in place."
+  },
+  "interface0006": {
+    "id": "interface0006",
+    "label": null,
+    "template": "The interface0006 is here. The description of the interface0006 is \"\". Understand \"None\" as the interface0006. The interface0006 is fixed in place."
+  },
+  "interface0007": {
+    "id": "interface0007",
+    "label": "Interface d’accrochage exhibit001-element004",
+    "template": "The interface0007 is here. The description of the interface0007 is \"\". Understand \"Interface d’accrochage exhibit001-element004\" as the interface0007. The interface0007 is fixed in place."
+  },
+  "interface0008": {
+    "id": "interface0008",
+    "label": null,
+    "template": "The interface0008 is here. The description of the interface0008 is \"\". Understand \"None\" as the interface0008. The interface0008 is fixed in place."
+  },
+  "interface0009": {
+    "id": "interface0009",
+    "label": null,
+    "template": "The interface0009 is here. The description of the interface0009 is \"\". Understand \"None\" as the interface0009. The interface0009 is fixed in place."
+  },
+  "interface0010": {
+    "id": "interface0010",
+    "label": null,
+    "template": "The interface0010 is here. The description of the interface0010 is \"\". Understand \"None\" as the interface0010. The interface0010 is fixed in place."
+  },
+  "interface0011": {
+    "id": "interface0011",
+    "label": "Interface de circulation pour space0009 et space0005",
+    "template": "The interface0011 is here. The description of the interface0011 is \"\". Understand \"Interface de circulation pour space0009 et space0005\" as the interface0011. The interface0011 is fixed in place."
+  },
+  "interface0012": {
+    "id": "interface0012",
+    "label": "Interface d’accrochage exhibit0023-element0021",
+    "template": "The interface0012 is here. The description of the interface0012 is \"\". Understand \"Interface d’accrochage exhibit0023-element0021\" as the interface0012. The interface0012 is fixed in place."
+  },
+  "interface0013": {
+    "id": "interface0013",
+    "label": "Interface d’accrochage exhibit0021-element0022",
+    "template": "The interface0013 is here. The description of the interface0013 is \"\". Understand \"Interface d’accrochage exhibit0021-element0022\" as the interface0013. The interface0013 is fixed in place."
+  },
+  "interface0015": {
+    "id": "interface0015",
+    "label": "Interface de circulation pour space0013 et space0014",
+    "template": "The interface0015 is here. The description of the interface0015 is \"\". Understand \"Interface de circulation pour space0013 et space0014\" as the interface0015. The interface0015 is fixed in place."
+  },
+  "interface0016": {
+    "id": "interface0016",
+    "label": "Interface de circulation pour space0015 et space0014",
+    "template": "The interface0016 is here. The description of the interface0016 is \"\". Understand \"Interface de circulation pour space0015 et space0014\" as the interface0016. The interface0016 is fixed in place."
+  },
+  "interface0017": {
+    "id": "interface0017",
+    "label": "Interface de circulation pour space0016 et space0013",
+    "template": "The interface0017 is here. The description of the interface0017 is \"\". Understand \"Interface de circulation pour space0016 et space0013\" as the interface0017. The interface0017 is fixed in place."
+  },
+  "interface0018": {
+    "id": "interface0018",
+    "label": "Interface de circulation pour space0016 et space0015",
+    "template": "The interface0018 is here. The description of the interface0018 is \"\". Understand \"Interface de circulation pour space0016 et space0015\" as the interface0018. The interface0018 is fixed in place."
+  },
+  "interface0019": {
+    "id": "interface0019",
+    "label": "Interface de circulation pour space0016 et space0018",
+    "template": "The interface0019 is here. The description of the interface0019 is \"\". Understand \"Interface de circulation pour space0016 et space0018\" as the interface0019. The interface0019 is fixed in place."
+  },
+  "interface0020": {
+    "id": "interface0020",
+    "label": "Interface de circulation pour space0016 et space0020",
+    "template": "The interface0020 is here. The description of the interface0020 is \"\". Understand \"Interface de circulation pour space0016 et space0020\" as the interface0020. The interface0020 is fixed in place."
+  },
+  "interface0021": {
+    "id": "interface0021",
+    "label": null,
+    "template": "The interface0021 is here. The description of the interface0021 is \"\". Understand \"None\" as the interface0021. The interface0021 is fixed in place."
+  },
+  "interface0022": {
+    "id": "interface0022",
+    "label": null,
+    "template": "The interface0022 is here. The description of the interface0022 is \"\". Understand \"None\" as the interface0022. The interface0022 is fixed in place."
+  },
+  "interface0023": {
+    "id": "interface0023",
+    "label": null,
+    "template": "The interface0023 is here. The description of the interface0023 is \"\". Understand \"None\" as the interface0023. The interface0023 is fixed in place."
+  },
+  "interface0024": {
+    "id": "interface0024",
+    "label": null,
+    "template": "The interface0024 is here. The description of the interface0024 is \"\". Understand \"None\" as the interface0024. The interface0024 is fixed in place."
+  },
+  "interface0025": {
+    "id": "interface0025",
+    "label": null,
+    "template": "The interface0025 is here. The description of the interface0025 is \"\". Understand \"None\" as the interface0025. The interface0025 is fixed in place."
+  },
+  "interface0026": {
+    "id": "interface0026",
+    "label": null,
+    "template": "The interface0026 is here. The description of the interface0026 is \"\". Understand \"None\" as the interface0026. The interface0026 is fixed in place."
+  },
+  "interface0027": {
+    "id": "interface0027",
+    "label": "Interface de circulation côté Haake",
+    "template": "The interface0027 is here. The description of the interface0027 is \"\". Understand \"Interface de circulation côté Haake\" as the interface0027. The interface0027 is fixed in place."
+  },
+  "interface0028": {
+    "id": "interface0028",
+    "label": null,
+    "template": "The interface0028 is here. The description of the interface0028 is \"\". Understand \"None\" as the interface0028. The interface0028 is fixed in place."
+  },
+  "interface0029": {
+    "id": "interface0029",
+    "label": null,
+    "template": "The interface0029 is here. The description of the interface0029 is \"\". Understand \"None\" as the interface0029. The interface0029 is fixed in place."
+  },
+  "interface0030": {
+    "id": "interface0030",
+    "label": null,
+    "template": "The interface0030 is here. The description of the interface0030 is \"\". Understand \"None\" as the interface0030. The interface0030 is fixed in place."
+  },
+  "interface0031": {
+    "id": "interface0031",
+    "label": null,
+    "template": "The interface0031 is here. The description of the interface0031 is \"\". Understand \"None\" as the interface0031. The interface0031 is fixed in place."
+  },
+  "interface0032": {
+    "id": "interface0032",
+    "label": "Interface de circulation côté Broodthaers",
+    "template": "The interface0032 is here. The description of the interface0032 is \"\". Understand \"Interface de circulation côté Broodthaers\" as the interface0032. The interface0032 is fixed in place."
+  },
+  "interface0033": {
+    "id": "interface0033",
+    "label": "Interface d’accrochage de Richter",
+    "template": "The interface0033 is here. The description of the interface0033 is \"\". Understand \"Interface d’accrochage de Richter\" as the interface0033. The interface0033 is fixed in place."
+  },
+  "space0000": {
+    "id": "space0000",
+    "label": "Préambule",
+    "template": "",
+    "containsExhibit": [
+      "exhibit0001",
+      "exhibit0002",
+      "exhibit0003",
+      "exhibit0004"
+    ]
+  },
+  "space0001": {
+    "id": "space0001",
+    "label": "salle 1 : Inventaire du mémorable",
+    "template": "The space0001 is here. The description of the space0001 is \"\". Understand \"salle 1 : Inventaire du mémorable\" as the space0001. The space0001 is fixed in place."
+  },
+  "space0002": {
+    "id": "space0002",
+    "label": "haut de la salle 1",
+    "template": "The space0002 is here. The description of the space0002 is \"\". Understand \"haut de la salle 1\" as the space0002. The space0002 is fixed in place."
+  },
+  "space0003": {
+    "id": "space0003",
+    "label": "espace Remps",
+    "template": "",
+    "containsExhibit": [
+      "display001"
+    ]
+  },
+  "space0004": {
+    "id": "space0004",
+    "label": "bas de la salle 1",
+    "template": "The space0004 is here. The description of the space0004 is \"\". Understand \"bas de la salle 1\" as the space0004. The space0004 is fixed in place."
+  },
+  "space0005": {
+    "id": "space0005",
+    "label": "salle 2 : Le cabinets d’amateurs",
+    "template": "",
+    "containsExhibit": [
+      "exhibit0021",
+      "exhibit0022",
+      "exhibit0023",
+      "exhibit0024",
+      "exhibit0025"
+    ]
+  },
+  "space0006": {
+    "id": "space0006",
+    "label": "salle 3 : L’art d’accommoder les restes",
+    "template": "The space0006 is here. The description of the space0006 is \"\". Understand \"salle 3 : L’art d’accommoder les restes\" as the space0006. The space0006 is fixed in place."
+  },
+  "space0007": {
+    "id": "space0007",
+    "label": "haut de la salle 3",
+    "template": "The space0007 is here. The description of the space0007 is \"\". Understand \"haut de la salle 3\" as the space0007. The space0007 is fixed in place."
+  },
+  "space0008": {
+    "id": "space0008",
+    "label": "milieu de la salle 3 (espace Spoerri)",
+    "template": "",
+    "containsExhibit": [
+      "exhibit0013",
+      "exhibit0014",
+      "exhibit0015",
+      "exhibit0016",
+      "exhibit0017"
+    ]
+  },
+  "space0009": {
+    "id": "space0009",
+    "label": "bas de la salle 3",
+    "template": "The space0009 is here. The description of the space0009 is \"\". Understand \"bas de la salle 3\" as the space0009. The space0009 is fixed in place."
+  },
+  "space0010": {
+    "id": "space0010",
+    "label": "salle 4 : Le musée sans objet",
+    "template": "",
+    "containsExhibit": [
+      "exhibit0026",
+      "exhibit0027",
+      "exhibit0028",
+      "exhibit0029",
+      "exhibit0030"
+    ]
+  },
+  "space0011": {
+    "id": "space0011",
+    "label": "salle 5 : Passif de la modernité",
+    "template": "",
+    "containsExhibit": [
+      "exhibit0031",
+      "exhibit0032",
+      "exhibit0033",
+      "exhibit0034",
+      "exhibit0035"
+    ]
+  },
+  "space0012": {
+    "id": "space0012",
+    "label": "salle 6 : La chair est triste, hélas ! Et j’ai lu tous les livres....",
+    "template": "The space0012 is here. The description of the space0012 is \"\". Understand \"salle 6 : La chair est triste, hélas ! Et j’ai lu tous les livres....\" as the space0012. The space0012 is fixed in place."
+  },
+  "space0013": {
+    "id": "space0013",
+    "label": "haut de la salle 6",
+    "template": "The space0013 is here. The description of the space0013 is \"\". Understand \"haut de la salle 6\" as the space0013. The space0013 is fixed in place."
+  },
+  "space0014": {
+    "id": "space0014",
+    "label": "milieu de la salle 6",
+    "template": "",
+    "containsExhibit": [
+      "exhibit0036",
+      "exhibit0037",
+      "exhibit0038",
+      "exhibit0039",
+      "exhibit0040"
+    ]
+  },
+  "space0015": {
+    "id": "space0015",
+    "label": "bas de la salle 6",
+    "template": "The space0015 is here. The description of the space0015 is \"\". Understand \"bas de la salle 6\" as the space0015. The space0015 is fixed in place."
+  },
+  "space0016": {
+    "id": "space0016",
+    "label": "salle 7 : Respect de l’étiquette, intérêt du cartel",
+    "template": "",
+    "containsExhibit": [
+      "exhibit0042"
+    ]
+  },
+  "space0017": {
+    "id": "space0017",
+    "label": "salle 8 : Le musée réfléchi",
+    "template": "The space0017 is here. The description of the space0017 is \"\". Understand \"salle 8 : Le musée réfléchi\" as the space0017. The space0017 is fixed in place."
+  },
+  "space0018": {
+    "id": "space0018",
+    "label": "haut de la salle 8",
+    "template": "The space0018 is here. The description of the space0018 is \"\". Understand \"haut de la salle 8\" as the space0018. The space0018 is fixed in place."
+  },
+  "space0019": {
+    "id": "space0019",
+    "label": "milieu de salle 8",
+    "template": "",
+    "containsExhibit": [
+      "exhibit0043",
+      "exhibit0044",
+      "exhibit0045",
+      "exhibit0046"
+    ]
+  },
+  "space0020": {
+    "id": "space0020",
+    "label": "bas de la salle 8",
+    "template": "The space0020 is here. The description of the space0020 is \"\". Understand \"bas de la salle 8\" as the space0020. The space0020 is fixed in place."
+  },
+  "space0021": {
+    "id": "space0021",
+    "label": "salle 9 : Mesure pour mesure",
+    "template": "",
+    "containsExhibit": [
+      "exhibit0047",
+      "exhibit0048",
+      "exhibit0049",
+      "exhibit0050"
+    ]
+  },
+  "space0022": {
+    "id": "space0022",
+    "label": "salle 10 : De la propriété littéraire et artistique",
+    "template": "The space0022 is here. The description of the space0022 is \"\". Understand \"salle 10 : De la propriété littéraire et artistique\" as the space0022. The space0022 is fixed in place."
+  },
+  "space0023": {
+    "id": "space0023",
+    "label": "salle 11 : L’index",
+    "template": "The space0023 is here. The description of the space0023 is \"\". Understand \"salle 11 : L’index\" as the space0023. The space0023 is fixed in place."
+  },
+  "space0024": {
+    "id": "space0024",
+    "label": "haut de la salle 11",
+    "template": "The space0024 is here. The description of the space0024 is \"\". Understand \"haut de la salle 11\" as the space0024. The space0024 is fixed in place."
+  },
+  "space0025": {
+    "id": "space0025",
+    "label": "milieu 11",
+    "template": "",
+    "containsExhibit": [
+      "exhibit0052",
+      "exhibit0053",
+      "exhibit0054",
+      "exhibit0055",
+      "exhibit0056",
+      "exhibit0057"
+    ]
+  },
+  "space0026": {
+    "id": "space0026",
+    "label": "bas de la salle 11",
+    "template": "The space0026 is here. The description of the space0026 is \"\". Understand \"bas de la salle 11\" as the space0026. The space0026 is fixed in place."
+  },
+  "space0997": {
+    "id": "space0997",
+    "label": "Espace desservant Broodthaers",
+    "template": "The space0997 is here. The description of the space0997 is \"\". Understand \"Espace desservant Broodthaers\" as the space0997. The space0997 is fixed in place."
+  },
+  "space0998": {
+    "id": "space0998",
+    "label": "Espace desservant Thomas-Pannini",
+    "template": "The space0998 is here. The description of the space0998 is \"\". Understand \"Espace desservant Thomas-Pannini\" as the space0998. The space0998 is fixed in place."
+  },
+  "space0999": {
+    "id": "space0999",
+    "label": "Espace desservant Francken",
+    "template": "The space0999 is here. The description of the space0999 is \"\". Understand \"Espace desservant Francken\" as the space0999. The space0999 is fixed in place."
+  }
+}

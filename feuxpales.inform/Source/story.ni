@@ -1,0 +1,320 @@
+"Feux pâles" by Alexia Schneider (in French)
+
+
+Book 1 - Setup
+
+Section 1 - Règles générales
+
+Understand "qui" or "quoi" or "quand" or "comment" or "pourquoi" as "[query]". 
+Understand "[query] [text]" as a mistake ("[story title] ne fonctionne qu'avec des instruction comme '[command prompt]examine objet', mais pas des questions. Pour plus d'aide, essaie HELP."). 
+
+Understand "contempler [something]" as examining. 
+[Understand "taking [something]" as a mistake ("C'est du vol ça.").]
+
+Definition: A room is occupied if a person is in it.
+Definition: a person is another if it is not the player. 
+
+Taking inventory is acting confused. Looking is acting confused. 
+After acting confused for the sixth turn: 
+	say "(Si tu te sens perdu, pense à CONSULTER le catalogue.)" 
+
+The description of a thing is usually "Rien de spécial". 
+
+Rule for printing the locale description of room: do nothing.
+
+Instead of taking something: say "Ça appartient au musée."
+
+Section 2 - Règles spéciales 
+
+Scanning is an action applying to a thing.
+Understand "scanner [something]" as scanning.
+Instead of scanning the code-barre: say "Pas de smartphone en 1991".
+Instead of scanning a thing: say "Ça ne se scanne pas, non ?"
+
+Section 3 - Relatif à l'histoire
+
+Chapter 1 - Le personnage
+
+Instead of examining the player:
+	say "Votre nom est Jedermann N.A. "
+	
+The player carries a portefeuille.
+The portefeuille is openable.
+The portefeuille is a closed container.
+The description of the portefeuille is "Un portefeuille tout ce qu'il y a de plus classique." 
+
+The carte d'identité (f), the ticket d'entrée, the CB (f) are things in the portefeuille. 
+
+The description of the carte d'identité est "La photo n'est pas très avantageuse." Understand "id" or "carte" as the carte d'identité. 
+The description of the ticket d'entrée is "Le ticket d'entrée de l'exposition du capc, le Musée d'art contemporain de Bordeaux. La date indique le 20 janvier 1991".  Understand "ticket" as the ticket d'entrée. 
+The description of the CB is "Un morceau de plastique bien commun pour un compte en banque bien rempli." Understand "carte" or "cb" as the CB.
+Instead of dropping the portefeuille: say "Mieux vaut ne pas se séparer de cet objet".
+Instead of taking the ticket d'entrée: say "Ça fait mieux de rester dans le portefeuille".
+Instead of taking the carte d'identité: say "Ça fait mieux de rester dans le portefeuille".
+Instead of taking the CB: say "Ça fait mieux de rester dans le portefeuille".
+
+Test portefeuille with " x moi / i / ouvrir portefeuille / x cb / prendre cb / lacher cb / lacher portefeuille "
+
+Chapter 2 - Catalogue
+
+[
+After buying the catalogue: 
+The player now carries a catalogue.
+ The description of the catalogue is "Le catalogue de l'exposition Feux pâles. Sa couverture est orange. Son sous-titre est 'une pièce à conviction'. Pour accéder à une page ou section, CONSULTER L'INDEX ou CONSULTER SECTION <titre de la section>". ]
+
+
+Chapter 3 - Help section
+
+[Liste des commandes du jeu nécessaire à sa complétion: 
+- examiner ou x
+- regarder ou r (alternativement look ou l)
+- acheter 
+
+Commandes non nécessaires :
+- scanner]
+
+Book 2 - Testing
+
+Section 1 - Testing descriptions - Not for release
+
+When play begins:
+	repeat with item running through things:
+		if description of the item is "":
+			say "[item] has no description."
+
+
+
+Book 3 - Story
+
+Chapter 0 - Préambule
+
+The Préambule is a room. "[if unvisited]L’énigme commence à l’entrée, dans le « préambule » de l’exposition, où est inscrit le titre de l’exposition au-dessus d’un code-barres signé par le capc.  [end if]Une pièce vide, des murs blancs, le Musée d'art Contemporain de Bordeaux en 1991. [line break] À l'ouest se trouve l'Inventaire du mémorable."
+
+A titre is here. The description of the titre is "Le texte en police Helvetica lit 'Feux pâles Exposition réalisée avec le concours de l’agence les ready-made appartiennent à tout le monde' Un code-barre de grande dimension se trouve juste en dessous." Understand "entrée" or "nom" or "nom de l'exposition" or "nom de l'expo" as the titre. The titre is fixed in place.
+
+A code-barre is here. The description of the code-barre is "Le code-barres est celui de l’exposition, il représente le produit fourni par l’agence ready-made appartiennent à tout le monde ®." Understand "code barre" as the code-barre. The code-barre is fixed in place.
+
+A mur is here. The description of the mur is "Tous les murs sont blancs immaculés, celui d'en face annonce le titre et présente un curieux code-barre, celui de droite un tableau signalétique ." Understand "murs" as the mur. The mur is fixed in place.
+
+A panneau is here. The description of the panneau is "Sur le mur dans le couloir de droite, le sommaire de l’exposition est donné au visiteur, les chapitres sont numérotés. Pour ce cartel de l’exposition, l’artiste utilise un tableau de signalétique rarement employé en institution muséale, il rappelle des codes bureaucratiques de « l’agence ». Le nom des salles/chapitres est rappelé avec le même type de tableau/cartel à l’entrée de chaque grande partie du projet: chapitres 1 et 2 ; chapitres 3 à 6 ; chapitres 7 à 11." Understand "tableau" or "tableau signalétique" or "pancarte" as the panneau. The panneau is fixed in place.
+
+
+Test 1 with "x moi / x titre / o / e / contemple titre  / i/ ouvrir portefeuille/ x carte/  x mur / frapper mur ".
+Test 2 with "toucher titre / prendre titre / frapper titre / embrasser titre / scanner code-barre "
+
+
+
+Chapter 1 - Inventaire du mémorable
+
+The L'inventaire du mémorable is west of the Préambule. "Dans cette première salle, sont regroupés dans trois grandes armoires des objets « merveilleux » comme un mémento mori en forme de crâne, une horloge de table côtoyant des stalactites ou encore un ouvrage (fermé) de C. Plinii 18. En dehors des vitrines, quatre moulages de bustes antiques côtoient des animaux naturalisés. La curiosité du visiteur poursuit sa découverte dans le trompe-l’œil Scarabattolo de Domenico Remps."
+
+The première armoire is here. The première armoire  is fixed in place.
+
+The première armoire (f) is a closed, transparent container. 
+The description of the première armoire is "On trouve de nombreuses choses."
+
+[NOTE : « Placée en ouverture de l’exposition, cette salle devrait avoir, après coup, pour le
+spectateur, valeur d’indice de ce que cette exposition se joue non seulement dans la
+succession de ses salles, mais aussi dans celle de ses chapitres, dans le catalogue. Elle
+devrait en même temps laisser soupçonner la “proximité” du projet dans son ensemble
+avec un travail ou une histoire qui, depuis 1981, s’amuse à produire des effets de renvoi
+ou de miroir entre des textes et des œuvres visuelles ou plastiques »]
+
+Utensil is a kind of thing. The knife, the fork and the spoon are utensils. Before listing contents: group utensils together.
+
+[A oeuvre is a kind of thing. The , the , and the  are oeuvres in the L'inventaire du mémorable.
+
+Before listing contents: group oeuvre together.]
+
+[NOTE pour fuzzy matching : Second, we can create tokens, such as "Understand "blonde hair" or "hair" as "[hair]", and then use these tokens in match phrases. This saves a good deal of time when we want to specify a number of different but fussy alternatives. So, for instance, here is a drawing that would not respond to >X OF, or >X BROWN EYES, but would respond to >X DRAWING OF MAN WITH BROWN EYES, >X MAN WITH BROWN EYES, and so on:
+
+The drawing is carried by the player. The printed name of the drawing is "drawing of a man with brown eyes". 
+
+Understand "eyes" or "brown eyes" as "[brown eyes]". Understand "man" or "man with [brown eyes]" or "brown-eyed man" as "[man]". Understand "[man]" or "drawing of [man]" or "drawing of a [man]" as the drawing]
+
+Chapter 12 - Fin
+
+When play ends: say "Cette trame composée de différents niveaux de fiction constitue l’œuvre de Phi -
+lippe Thomas. Comme il le dit dans un entretien avec Stéphane Wargnier5 : « Ce que
+j’ai prétendu faire, c’est une fiction qui sort du texte, qui sort du cadre où on l’attend
+généralement. La fiction est généralement enfermée dans un livre, comme elle peut être
+enfermée dans un cadre, ou sur un écran au cinéma. À partir de là, on sait qu’il s’agit de
+fiction. Mais que se passe-t-il si le livre lui-même, l’écran de cinéma ou le tableau sont
+pris eux-mêmes dans une histoire qui est construite de toutes pièces. » Réseau d’élé-
+ments agencés, l’œuvre de Philippe Thomas se conçoit comme un tout indissociable.
+Chaque pièce produite est connectée à une autre, créant des indices à la portée du
+regardeur qui progressivement propage la rumeur."
+
+Chapter 100 - Template
+[
+The display001 is here. The description of the display001 is "". Understand "Display contenu dans space0003 (espace Remps)" as the display001. The display001 is fixed in place.
+The display002 is here. The description of the display002 is "". Understand "None" as the display002. The display002 is fixed in place.
+The element0004 is here. The description of the element0004 is "". Understand "Cimaise du code-barres" as the element0004. The element0004 is fixed in place.
+The element0005 is here. The description of the element0005 is "". Understand "Cimaise du préambule" as the element0005. The element0005 is fixed in place.
+The element0006 is here. The description of the element0006 is "". Understand "cimaise faisant face au mur de la porte d’entrée" as the element0006. The element0006 is fixed in place.
+The element0007 is here. The description of the element0007 is "". Understand "mur de la porte d’entrée" as the element0007. The element0007 is fixed in place.
+The element0008 is here. The description of the element0008 is "". Understand "Porte d’entrée" as the element0008. The element0008 is fixed in place.
+The element0009 is here. The description of the element0009 is "". Understand "cimaise Remps" as the element0009. The element0009 is fixed in place.
+The element0010 is here. The description of the element0010 is "". Understand "cimaise de la salle 1" as the element0010. The element0010 is fixed in place.
+The element0011 is here. The description of the element0011 is "". Understand "cimaise de la salle 1" as the element0011. The element0011 is fixed in place.
+The element0012 is here. The description of the element0012 is "". Understand "cimaise de la salle 1" as the element0012. The element0012 is fixed in place.
+The element0013 is here. The description of the element0013 is "". Understand "vitrine vis-à-vis Remps" as the element0013. The element0013 is fixed in place.
+The element0014 is here. The description of the element0014 is "". Understand "Socle de Platon" as the element0014. The element0014 is fixed in place.
+The element0015 is a closed container. display002 are in element0015.
+The element0016 is here. The description of the element0016 is "". Understand "vitrine (vers le bas du plan)" as the element0016. The element0016 is fixed in place.
+The element0017 is here. The description of the element0017 is "". Understand "None" as the element0017. The element0017 is fixed in place.
+The element0018 is here. The description of the element0018 is "". Understand "None" as the element0018. The element0018 is fixed in place.
+The element0019 is here. The description of the element0019 is "". Understand "None" as the element0019. The element0019 is fixed in place.
+The element0020 is here. The description of the element0020 is "". Understand "None" as the element0020. The element0020 is fixed in place.
+The element0021 is here. The description of the element0021 is "". Understand "cimaise de la salle 2 haut" as the element0021. The element0021 is fixed in place.
+The element0022 is here. The description of the element0022 is "". Understand "cimaise de la salle 2 gauche" as the element0022. The element0022 is fixed in place.
+The element0023 is here. The description of the element0023 is "". Understand "cimaise de la salle 2 bas" as the element0023. The element0023 is fixed in place.
+The element0024 is here. The description of the element0024 is "". Understand "cimaise de la salle 2 droite" as the element0024. The element0024 is fixed in place.
+The element0025 is a closed container. exhibit0026the exhibit0027the exhibit0028the exhibit0029the exhibit0030 are in element0025.
+The element0026 is here. The description of the element0026 is "". Understand "cimaise de la salle 4" as the element0026. The element0026 is fixed in place.
+The element0027 is here. The description of the element0027 is "". Understand "socle" as the element0027. The element0027 is fixed in place.
+The element0028 is here. The description of the element0028 is "". Understand "socle" as the element0028. The element0028 is fixed in place.
+The element0029 is here. The description of the element0029 is "". Understand "socle de fontaine" as the element0029. The element0029 is fixed in place.
+The element0030 is here. The description of the element0030 is "". Understand "None" as the element0030. The element0030 is fixed in place.
+The element0031 is here. The description of the element0031 is "". Understand "None" as the element0031. The element0031 is fixed in place.
+The element0032 is here. The description of the element0032 is "". Understand "None" as the element0032. The element0032 is fixed in place.
+The element0033 is here. The description of the element0033 is "". Understand "None" as the element0033. The element0033 is fixed in place.
+The element0040 is here. The description of the element0040 is "". Understand "None" as the element0040. The element0040 is fixed in place.
+The element0041 is here. The description of the element0041 is "". Understand "None" as the element0041. The element0041 is fixed in place.
+The element0042 is here. The description of the element0042 is "". Understand "None" as the element0042. The element0042 is fixed in place.
+The element0043 is here. The description of the element0043 is "". Understand "None" as the element0043. The element0043 is fixed in place.
+The element0044 is here. The description of the element0044 is "". Understand "None" as the element0044. The element0044 is fixed in place.
+The element0045 is here. The description of the element0045 is "". Understand "None" as the element0045. The element0045 is fixed in place.
+The element0046 is here. The description of the element0046 is "". Understand "None" as the element0046. The element0046 is fixed in place.
+The element0047 is here. The description of the element0047 is "". Understand "None" as the element0047. The element0047 is fixed in place.
+The element0048 is here. The description of the element0048 is "". Understand "None" as the element0048. The element0048 is fixed in place.
+The element0049 is a closed container. exhibit0048the exhibit0049the exhibit0065 are in element0049.
+The element0050 is here. The description of the element0050 is "". Understand "None" as the element0050. The element0050 is fixed in place.
+The element0051 is here. The description of the element0051 is "". Understand "None" as the element0051. The element0051 is fixed in place.
+The element0052 is here. The description of the element0052 is "". Understand "None" as the element0052. The element0052 is fixed in place.
+The element0053 is here. The description of the element0053 is "". Understand "None" as the element0053. The element0053 is fixed in place.
+The element0054 is here. The description of the element0054 is "". Understand "Cimaise du haut (perspective plan, cf. Renaudie), salle 8" as the element0054. The element0054 is fixed in place.
+The element0055 is here. The description of the element0055 is "". Understand "Cimaise Broodthaers, salle 8" as the element0055. The element0055 is fixed in place.
+The exhibit0001 is here. The description of the exhibit0001 is "". Understand "None" as the exhibit0001. The exhibit0001 is fixed in place.
+The exhibit0002 is here. The description of the exhibit0002 is "". Understand "None" as the exhibit0002. The exhibit0002 is fixed in place.
+The exhibit0003 is here. The description of the exhibit0003 is "". Understand "Crédits" as the exhibit0003. The exhibit0003 is fixed in place.
+The exhibit0004 is here. The description of the exhibit0004 is "". Understand "None" as the exhibit0004. The exhibit0004 is fixed in place.
+The exhibit0005 is here. The description of the exhibit0005 is "". Understand "None" as the exhibit0005. The exhibit0005 is fixed in place.
+The exhibit0006 is here. The description of the exhibit0006 is "". Understand "Buste de Platon" as the exhibit0006. The exhibit0006 is fixed in place.The exhibit0006 is on the 
+The exhibit0007 is here. The description of the exhibit0007 is "". Understand "Buste de Simonide" as the exhibit0007. The exhibit0007 is fixed in place.
+The exhibit0008 is here. The description of the exhibit0008 is "". Understand "Buste d’Aristote" as the exhibit0008. The exhibit0008 is fixed in place.
+The exhibit0009 is here. The description of the exhibit0009 is "". Understand "Buste de Quintilien" as the exhibit0009. The exhibit0009 is fixed in place.
+The exhibit0010 is here. The description of the exhibit0010 is "". Understand "None" as the exhibit0010. The exhibit0010 is fixed in place.
+The exhibit0011 is here. The description of the exhibit0011 is "". Understand "None" as the exhibit0011. The exhibit0011 is fixed in place.
+The exhibit0012 is here. The description of the exhibit0012 is "". Understand "None" as the exhibit0012. The exhibit0012 is fixed in place.
+The exhibit0013 is here. The description of the exhibit0013 is "". Understand "Spoerri" as the exhibit0013. The exhibit0013 is fixed in place.
+The exhibit0014 is here. The description of the exhibit0014 is "". Understand "Roth" as the exhibit0014. The exhibit0014 is fixed in place.The exhibit0014 is on the 
+The exhibit0015 is here. The description of the exhibit0015 is "". Understand "None" as the exhibit0015. The exhibit0015 is fixed in place.The exhibit0015 is on the 
+The exhibit0016 is here. The description of the exhibit0016 is "". Understand "Manzoni" as the exhibit0016. The exhibit0016 is fixed in place.The exhibit0016 is on the 
+The exhibit0017 is here. The description of the exhibit0017 is "". Understand "Beuys" as the exhibit0017. The exhibit0017 is fixed in place.
+The exhibit0021 is here. The description of the exhibit0021 is "". Understand "Janssens 1" as the exhibit0021. The exhibit0021 is fixed in place.
+The exhibit0022 is here. The description of the exhibit0022 is "". Understand "Janssens 2" as the exhibit0022. The exhibit0022 is fixed in place.
+The exhibit0023 is here. The description of the exhibit0023 is "". Understand "Francken" as the exhibit0023. The exhibit0023 is fixed in place.
+The exhibit0024 is here. The description of the exhibit0024 is "". Understand "Pannini" as the exhibit0024. The exhibit0024 is fixed in place.
+The exhibit0025 is here. The description of the exhibit0025 is "". Understand "Thomas" as the exhibit0025. The exhibit0025 is fixed in place.
+The exhibit0026 is here. The description of the exhibit0026 is "". Understand "Klein" as the exhibit0026. The exhibit0026 is fixed in place.
+The exhibit0027 is here. The description of the exhibit0027 is "". Understand "Wilson" as the exhibit0027. The exhibit0027 is fixed in place.
+The exhibit0028 is here. The description of the exhibit0028 is "". Understand "Dibbets" as the exhibit0028. The exhibit0028 is fixed in place.
+The exhibit0029 is here. The description of the exhibit0029 is "". Understand "Long" as the exhibit0029. The exhibit0029 is fixed in place.
+The exhibit0030 is here. The description of the exhibit0030 is "". Understand "Smithson" as the exhibit0030. The exhibit0030 is fixed in place.
+The exhibit0031 is here. The description of the exhibit0031 is "". Understand "McCollum" as the exhibit0031. The exhibit0031 is fixed in place.
+The exhibit0032 is here. The description of the exhibit0032 is "". Understand "Richter 1" as the exhibit0032. The exhibit0032 is fixed in place.
+The exhibit0033 is here. The description of the exhibit0033 is "". Understand "Richter 2" as the exhibit0033. The exhibit0033 is fixed in place.
+The exhibit0034 is here. The description of the exhibit0034 is "". Understand "Clairet" as the exhibit0034. The exhibit0034 is fixed in place.
+The exhibit0035 is here. The description of the exhibit0035 is "". Understand "Charlton" as the exhibit0035. The exhibit0035 is fixed in place.
+The exhibit0036 is here. The description of the exhibit0036 is "". Understand "Dimitrijevic" as the exhibit0036. The exhibit0036 is fixed in place.
+The exhibit0037 is here. The description of the exhibit0037 is "". Understand "None" as the exhibit0037. The exhibit0037 is fixed in place.
+The exhibit0038 is here. The description of the exhibit0038 is "". Understand "Lévine 1" as the exhibit0038. The exhibit0038 is fixed in place.
+The exhibit0039 is here. The description of the exhibit0039 is "". Understand "Lévine 2" as the exhibit0039. The exhibit0039 is fixed in place.
+The exhibit0040 is here. The description of the exhibit0040 is "". Understand "Linke" as the exhibit0040. The exhibit0040 is fixed in place.
+The exhibit0041 is here. The description of the exhibit0041 is "". Understand "None" as the exhibit0041. The exhibit0041 is fixed in place.
+The exhibit0042 is here. The description of the exhibit0042 is "". Understand "Souvenir écran" as the exhibit0042. The exhibit0042 is fixed in place.
+The exhibit0043 is here. The description of the exhibit0043 is "". Understand "Duchamp 1" as the exhibit0043. The exhibit0043 is fixed in place.
+The exhibit0044 is here. The description of the exhibit0044 is "". Understand "Duchamp 2" as the exhibit0044. The exhibit0044 is fixed in place.
+The exhibit0045 is here. The description of the exhibit0045 is "". Understand "Venazzo" as the exhibit0045. The exhibit0045 is fixed in place.
+The exhibit0046 is here. The description of the exhibit0046 is "". Understand "Broodthaers, salle 8" as the exhibit0046. The exhibit0046 is fixed in place.
+The exhibit0047 is here. The description of the exhibit0047 is "". Understand "Haacke" as the exhibit0047. The exhibit0047 is fixed in place.
+The exhibit0048 is here. The description of the exhibit0048 is "". Understand "Manzoni 1" as the exhibit0048. The exhibit0048 is fixed in place.
+The exhibit0049 is here. The description of the exhibit0049 is "". Understand "Duchamp 3" as the exhibit0049. The exhibit0049 is fixed in place.
+The exhibit0050 is here. The description of the exhibit0050 is "". Understand "Broodthaers (salle 9)" as the exhibit0050. The exhibit0050 is fixed in place.
+The exhibit0051 is here. The description of the exhibit0051 is "". Understand "Parcelle à céder" as the exhibit0051. The exhibit0051 is fixed in place.
+The exhibit0052 is here. The description of the exhibit0052 is "". Understand "Blondeau" as the exhibit0052. The exhibit0052 is fixed in place.
+The exhibit0053 is here. The description of the exhibit0053 is "". Understand "Morris" as the exhibit0053. The exhibit0053 is fixed in place.
+The exhibit0054 is here. The description of the exhibit0054 is "". Understand "Ready-made" as the exhibit0054. The exhibit0054 is fixed in place.
+The exhibit0055 is here. The description of the exhibit0055 is "". Understand "Ready-made 2" as the exhibit0055. The exhibit0055 is fixed in place.
+The exhibit0056 is here. The description of the exhibit0056 is "". Understand "None" as the exhibit0056. The exhibit0056 is fixed in place.
+The exhibit0057 is here. The description of the exhibit0057 is "". Understand "Löcher" as the exhibit0057. The exhibit0057 is fixed in place.
+The exhibit0058 is here. The description of the exhibit0058 is "". Understand "None" as the exhibit0058. The exhibit0058 is fixed in place.
+The exhibit0059 is here. The description of the exhibit0059 is "". Understand "None" as the exhibit0059. The exhibit0059 is fixed in place.
+The exhibit0060 is here. The description of the exhibit0060 is "". Understand "None" as the exhibit0060. The exhibit0060 is fixed in place.
+The exhibit0061 is here. The description of the exhibit0061 is "". Understand "None" as the exhibit0061. The exhibit0061 is fixed in place.
+The exhibit0062 is here. The description of the exhibit0062 is "". Understand "None" as the exhibit0062. The exhibit0062 is fixed in place.
+The interface0000 is here. The description of the interface0000 is "". Understand "None" as the interface0000. The interface0000 is fixed in place.
+The interface0001 is here. The description of the interface0001 is "". Understand "None" as the interface0001. The interface0001 is fixed in place.
+The interface0002 is here. The description of the interface0002 is "". Understand "None" as the interface0002. The interface0002 is fixed in place.
+The interface0003 is here. The description of the interface0003 is "". Understand "None" as the interface0003. The interface0003 is fixed in place.
+The interface0004 is here. The description of the interface0004 is "". Understand "None" as the interface0004. The interface0004 is fixed in place.
+The interface0005 is here. The description of the interface0005 is "". Understand "None" as the interface0005. The interface0005 is fixed in place.
+The interface0006 is here. The description of the interface0006 is "". Understand "None" as the interface0006. The interface0006 is fixed in place.
+The interface0007 is here. The description of the interface0007 is "". Understand "Interface d’accrochage exhibit001-element004" as the interface0007. The interface0007 is fixed in place.
+The interface0008 is here. The description of the interface0008 is "". Understand "None" as the interface0008. The interface0008 is fixed in place.
+The interface0009 is here. The description of the interface0009 is "". Understand "None" as the interface0009. The interface0009 is fixed in place.
+The interface0010 is here. The description of the interface0010 is "". Understand "None" as the interface0010. The interface0010 is fixed in place.
+The interface0011 is here. The description of the interface0011 is "". Understand "Interface de circulation pour space0009 et space0005" as the interface0011. The interface0011 is fixed in place.
+The interface0012 is here. The description of the interface0012 is "". Understand "Interface d’accrochage exhibit0023-element0021" as the interface0012. The interface0012 is fixed in place.
+The interface0013 is here. The description of the interface0013 is "". Understand "Interface d’accrochage exhibit0021-element0022" as the interface0013. The interface0013 is fixed in place.
+The interface0015 is here. The description of the interface0015 is "". Understand "Interface de circulation pour space0013 et space0014" as the interface0015. The interface0015 is fixed in place.
+The interface0016 is here. The description of the interface0016 is "". Understand "Interface de circulation pour space0015 et space0014" as the interface0016. The interface0016 is fixed in place.
+The interface0017 is here. The description of the interface0017 is "". Understand "Interface de circulation pour space0016 et space0013" as the interface0017. The interface0017 is fixed in place.
+The interface0018 is here. The description of the interface0018 is "". Understand "Interface de circulation pour space0016 et space0015" as the interface0018. The interface0018 is fixed in place.
+The interface0019 is here. The description of the interface0019 is "". Understand "Interface de circulation pour space0016 et space0018" as the interface0019. The interface0019 is fixed in place.
+The interface0020 is here. The description of the interface0020 is "". Understand "Interface de circulation pour space0016 et space0020" as the interface0020. The interface0020 is fixed in place.
+The interface0021 is here. The description of the interface0021 is "". Understand "None" as the interface0021. The interface0021 is fixed in place.
+The interface0022 is here. The description of the interface0022 is "". Understand "None" as the interface0022. The interface0022 is fixed in place.
+The interface0023 is here. The description of the interface0023 is "". Understand "None" as the interface0023. The interface0023 is fixed in place.
+The interface0024 is here. The description of the interface0024 is "". Understand "None" as the interface0024. The interface0024 is fixed in place.
+The interface0025 is here. The description of the interface0025 is "". Understand "None" as the interface0025. The interface0025 is fixed in place.
+The interface0026 is here. The description of the interface0026 is "". Understand "None" as the interface0026. The interface0026 is fixed in place.
+The interface0027 is here. The description of the interface0027 is "". Understand "Interface de circulation côté Haake" as the interface0027. The interface0027 is fixed in place.
+The interface0028 is here. The description of the interface0028 is "". Understand "None" as the interface0028. The interface0028 is fixed in place.
+The interface0029 is here. The description of the interface0029 is "". Understand "None" as the interface0029. The interface0029 is fixed in place.
+The interface0030 is here. The description of the interface0030 is "". Understand "None" as the interface0030. The interface0030 is fixed in place.
+The interface0031 is here. The description of the interface0031 is "". Understand "None" as the interface0031. The interface0031 is fixed in place.
+The interface0032 is here. The description of the interface0032 is "". Understand "Interface de circulation côté Broodthaers" as the interface0032. The interface0032 is fixed in place.
+The interface0033 is here. The description of the interface0033 is "". Understand "Interface d’accrochage de Richter" as the interface0033. The interface0033 is fixed in place.
+
+The space0001 is here. The description of the space0001 is "". Understand "salle 1 : Inventaire du mémorable" as the space0001. The space0001 is fixed in place.
+The space0002 is here. The description of the space0002 is "". Understand "haut de la salle 1" as the space0002. The space0002 is fixed in place.
+
+The space0004 is here. The description of the space0004 is "". Understand "bas de la salle 1" as the space0004. The space0004 is fixed in place.
+]
+The space0006 is here. The description of the space0006 is "". Understand "salle 3 : L’art d’accommoder les restes" as the space0006. The space0006 is fixed in place.
+The space0007 is here. The description of the space0007 is "". Understand "haut de la salle 3" as the space0007. The space0007 is fixed in place.
+
+The space0009 is here. The description of the space0009 is "". Understand "bas de la salle 3" as the space0009. The space0009 is fixed in place.
+
+
+The space0012 is here. The description of the space0012 is "". Understand "salle 6 : La chair est triste, hélas ! Et j’ai lu tous les livres...." as the space0012. The space0012 is fixed in place.
+The space0013 is here. The description of the space0013 is "". Understand "haut de la salle 6" as the space0013. The space0013 is fixed in place.
+
+The space0015 is here. The description of the space0015 is "". Understand "bas de la salle 6" as the space0015. The space0015 is fixed in place.
+
+The space0017 is here. The description of the space0017 is "". Understand "salle 8 : Le musée réfléchi" as the space0017. The space0017 is fixed in place.
+The space0018 is here. The description of the space0018 is "". Understand "haut de la salle 8" as the space0018. The space0018 is fixed in place.
+
+The space0020 is here. The description of the space0020 is "". Understand "bas de la salle 8" as the space0020. The space0020 is fixed in place.
+
+The space0022 is here. The description of the space0022 is "". Understand "salle 10 : De la propriété littéraire et artistique" as the space0022. The space0022 is fixed in place.
+The space0023 is here. The description of the space0023 is "". Understand "salle 11 : L’index" as the space0023. The space0023 is fixed in place.
+The space0024 is here. The description of the space0024 is "". Understand "haut de la salle 11" as the space0024. The space0024 is fixed in place.
+
+The space0026 is here. The description of the space0026 is "". Understand "bas de la salle 11" as the space0026. The space0026 is fixed in place.
+The space0997 is here. The description of the space0997 is "". Understand "Espace desservant Broodthaers" as the space0997. The space0997 is fixed in place.
+The space0998 is here. The description of the space0998 is "". Understand "Espace desservant Thomas-Pannini" as the space0998. The space0998 is fixed in place.
+The space0999 is here. The description of the space0999 is "". Understand "Espace desservant Francken" as the space0999. The space0999 is fixed in place.
+

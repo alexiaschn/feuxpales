@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x034C6EA8" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x0356C838"/>
+  <item nodeId="node-0x034C6EA8">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">Feux p&#x00E2;les&#x000A;Une fiction interactive par Alexia Schneider&#x000A;Release 1 / Serial number 250826 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Pr&#x00E9;ambule&#x000A;L'&#x00E9;nigme commence &#x00E0; l'entr&#x00E9;e, dans le &#x00AB; pr&#x00E9;ambule &#x00BB; de l'exposition, o&#x00F9; est inscrit le titre de l'exposition au-dessus d'un code-barres sign&#x00E9; par le capc.  Une pi&#x00E8;ce vide, des murs blancs, le Mus&#x00E9;e d'art Contemporain de Bordeaux en 1991. &#x000A; &#x00C0; l'ouest se trouve l'Inventaire du m&#x00E9;morable.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x034C6F98"/>
+      <child nodeId="node-0x034CF8D0"/>
+      <child nodeId="node-0x034D11D8"/>
+      <child nodeId="node-0x034D16A8"/>
+      <child nodeId="node-0x034D1478"/>
+      <child nodeId="node-0x034DEAB8"/>
+      <child nodeId="node-0x034DEA48"/>
+      <child nodeId="node-0x034DE348"/>
+      <child nodeId="node-0x034DDE78"/>
+      <child nodeId="node-0x034DE738"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034C6F98">
+    <command xml:space="preserve">test</command>
+    <result xml:space="preserve">&gt;--&gt; The following tests are available:&#x000A;'test me'&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034DC9C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034DC9C8">
+    <command xml:space="preserve">test me</command>
+    <result xml:space="preserve">(Testing.)&#x000A;&#x000A;&gt;[1] x me&#x000A;As good-looking as ever.&#x000A;&#x000A;&gt;[2] x titre&#x000A;Sur le mur blanc, "Feux p&#x00E2;les" en grande lettre noires sans s&#x00E9;rif. Un code-barre de grande dimension se trouve juste en dessous.&#x000A;&#x000A;&gt;[3] w&#x000A;&#x000A;L'inventaire du m&#x00E9;morable&#x000A;Dans cette premi&#x00E8;re salle, sont regroup&#x00E9;s dans trois grandes armoires des objets &#x00AB; merveilleux &#x00BB; comme un m&#x00E9;mento mori en forme de cr&#x00E2;ne, une horloge de table c&#x00F4;toyant des stalactites ou encore un ouvrage (ferm&#x00E9;) de C. Plinii 18. En dehors des vitrines, quatre moulages de bustes antiques c&#x00F4;toient des animaux naturalis&#x00E9;s. La curiosit&#x00E9; du visiteur poursuit sa d&#x00E9;couverte dans le trompe-l"&#x0153;il Scarabattolo de Domenico Remps.&#x000A;&#x000A;&gt;[4] e&#x000A;&#x000A;Pr&#x00E9;ambule&#x000A;Le Pr&#x00E9;ambule est une pi&#x00E8;ce vide, un mur blanc seulement avec un titre et un code-barre.&#x000A;&#x000A;You can see a titre and a code-barre here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x034CF8D0">
+    <command xml:space="preserve">test me</command>
+    <result xml:space="preserve">(Testing.)&#x000A;&#x000A;&gt;[1] x moi&#x000A;Tu es Jedermann N.A. En quoi &#x00E7;a consiste exactement ? Allez savoir. Tu tiens un catalogue.&#x000A;&#x000A;&gt;[2] x titre&#x000A;Sur le mur blanc, "Feux p&#x00E2;les" en grande lettre noires sans s&#x00E9;rif. Un code-barre de grande dimension se trouve juste en dessous.&#x000A;&#x000A;&gt;[3] o&#x000A;&#x000A;L'inventaire du m&#x00E9;morable&#x000A;Dans cette premi&#x00E8;re salle, sont regroup&#x00E9;s dans trois grandes armoires des objets &#x00AB; merveilleux &#x00BB; comme un m&#x00E9;mento mori en forme de cr&#x00E2;ne, une horloge de table c&#x00F4;toyant des stalactites ou encore un ouvrage (ferm&#x00E9;) de C. Plinii 18. En dehors des vitrines, quatre moulages de bustes antiques c&#x00F4;toient des animaux naturalis&#x00E9;s. La curiosit&#x00E9; du visiteur poursuit sa d&#x00E9;couverte dans le trompe-l"&#x0153;il Scarabattolo de Domenico Remps.&#x000A;&#x000A;&gt;[4] e&#x000A;&#x000A;Pr&#x00E9;ambule&#x000A;Une pi&#x00E8;ce vide, un mur blanc seulement avec un titre et un code-barre.&#x000A;&#x000A;Dans cette salle on trouve : vous-m&#x00EA;me, titre et code-barre &#x000A;&gt;[5] contemple titre&#x000A;Sur le mur blanc, "Feux p&#x00E2;les" en grande lettre noires sans s&#x00E9;rif. Un code-barre de grande dimension se trouve juste en dessous.&#x000A;&#x000A;&gt;[6] o&#x000A;&#x000A;L'inventaire du m&#x00E9;morable&#x000A;Dans cette premi&#x00E8;re salle, sont regroup&#x00E9;s dans trois grandes armoires des objets &#x00AB; merveilleux &#x00BB; comme un m&#x00E9;mento mori en forme de cr&#x00E2;ne, une horloge de table c&#x00F4;toyant des stalactites ou encore un ouvrage (ferm&#x00E9;) de C. Plinii 18. En dehors des vitrines, quatre moulages de bustes antiques c&#x00F4;toient des animaux naturalis&#x00E9;s. La curiosit&#x00E9; du visiteur poursuit sa d&#x00E9;couverte dans le trompe-l"&#x0153;il Scarabattolo de Domenico Remps.&#x000A;&#x000A;&gt;[7] frappe mur&#x000A;[Je n'ai pas compris cette phrase.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034CF9D0"/>
+      <child nodeId="node-0x034D0898"/>
+      <child nodeId="node-0x034D0E40"/>
+      <child nodeId="node-0x034DE968"/>
+      <child nodeId="node-0x034E90D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034CF9D0">
+    <command xml:space="preserve">x code-barre</command>
+    <result xml:space="preserve">Le code barre ne donne aucune indication particuli&#x00E8;re.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034CFE48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034CFE48">
+    <command xml:space="preserve">x catalogu</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034D0828"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034D0828">
+    <command xml:space="preserve">x catalogue</command>
+    <result xml:space="preserve">Le catalogue de l'exposition Feux p&#x00E2;les. Sa couverture est orange. Pour acc&#x00E9;der &#x00E0; une page ou section, CONSULTER L'INDEX ou CONSULTER SECTION &lt;titre de la section&gt;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x034D0898">
+    <command xml:space="preserve">frappe</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034D0908"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034D0908">
+    <command xml:space="preserve">mange</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034D0A28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034D0A28">
+    <command xml:space="preserve">eat</command>
+    <result xml:space="preserve">(the catalogue)&#x000A;Un visiteur de mus&#x00E9;e &#x00E9;duqu&#x00E9; ne se permettrait jamais &#x00E7;a.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x034D0E40">
+    <command xml:space="preserve">gauche</command>
+    <result xml:space="preserve">L'inventaire du m&#x00E9;morable&#x000A;Dans cette premi&#x00E8;re salle, sont regroup&#x00E9;s dans trois grandes armoires des objets &#x00AB; merveilleux &#x00BB; comme un m&#x00E9;mento mori en forme de cr&#x00E2;ne, une horloge de table c&#x00F4;toyant des stalactites ou encore un ouvrage (ferm&#x00E9;) de C. Plinii 18. En dehors des vitrines, quatre moulages de bustes antiques c&#x00F4;toient des animaux naturalis&#x00E9;s. La curiosit&#x00E9; du visiteur poursuit sa d&#x00E9;couverte dans le trompe-l"&#x0153;il Scarabattolo de Domenico Remps.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034D0FF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034D0FF0">
+    <command xml:space="preserve">est</command>
+    <result xml:space="preserve">Pr&#x00E9;ambule&#x000A;Une pi&#x00E8;ce vide, un mur blanc seulement avec un titre et un code-barre.&#x000A;&#x000A;Dans cette salle on trouve : yourself, titre and code-barre &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034D1060"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034D1060">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034D10D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034D10D0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034D1408"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034D1408">
+    <command xml:space="preserve">droite</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034D18D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034D18D8">
+    <command xml:space="preserve">gauche</command>
+    <result xml:space="preserve">L'inventaire du m&#x00E9;morable&#x000A;Dans cette premi&#x00E8;re salle, sont regroup&#x00E9;s dans trois grandes armoires des objets &#x00AB; merveilleux &#x00BB; comme un m&#x00E9;mento mori en forme de cr&#x00E2;ne, une horloge de table c&#x00F4;toyant des stalactites ou encore un ouvrage (ferm&#x00E9;) de C. Plinii 18. En dehors des vitrines, quatre moulages de bustes antiques c&#x00F4;toient des animaux naturalis&#x00E9;s. La curiosit&#x00E9; du visiteur poursuit sa d&#x00E9;couverte dans le trompe-l"&#x0153;il Scarabattolo de Domenico Remps.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034D1248"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034D1248">
+    <command xml:space="preserve">droite</command>
+    <result xml:space="preserve">Pr&#x00E9;ambule&#x000A;Une pi&#x00E8;ce vide, un mur blanc seulement avec un titre et un code-barre.&#x000A;&#x000A;Dans cette salle on trouve : yourself, titre and code-barre &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x034DE968">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Pr&#x00E9;ambule&#x000A;Une pi&#x00E8;ce vide, un mur blanc seulement avec un titre et un code-barre.&#x000A;&#x000A;Dans cette salle on trouve : vous-m&#x00EA;me, titre et code-barre &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034DE9D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034DE9D8">
+    <command xml:space="preserve">x code barre</command>
+    <result xml:space="preserve">Le code barre ne donne aucune indication particuli&#x00E8;re.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x034E90D0">
+    <command xml:space="preserve">frappe titre</command>
+    <result xml:space="preserve">[Je n'ai pas compris cette phrase.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034E9840"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034E9840">
+    <command xml:space="preserve">x moi</command>
+    <result xml:space="preserve">Tu es Jedermann N.A. En quoi &#x00E7;a consiste exactement ? Allez savoir. Tu tiens un catalogue.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034E8F10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034E8F10">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Pr&#x00E9;ambule&#x000A;Une pi&#x00E8;ce vide, un mur blanc seulement avec un titre et un code-barre.&#x000A;&#x000A;Dans cette salle on trouve : vous-m&#x00EA;me, titre et code-barre &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034E93E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034E93E0">
+    <command xml:space="preserve">frappe titre</command>
+    <result xml:space="preserve">[Je n'ai pas compris cette phrase.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034E9610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034E9610">
+    <command xml:space="preserve">x titre</command>
+    <result xml:space="preserve">Sur le mur blanc, "Feux p&#x00E2;les" en grande lettre noires sans s&#x00E9;rif. Un code-barre de grande dimension se trouve juste en dessous.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034E94C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034E94C0">
+    <command xml:space="preserve">frappe titre</command>
+    <result xml:space="preserve">[Je n'ai pas compris cette phrase.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034E8DC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034E8DC0">
+    <command xml:space="preserve">x pancarte</command>
+    <result xml:space="preserve">Sur le mur blanc, "Feux p&#x00E2;les" en grande lettre noires sans s&#x00E9;rif. Un code-barre de grande dimension se trouve juste en dessous.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034E8CE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034E8CE0">
+    <command xml:space="preserve">prendre signe</command>
+    <result xml:space="preserve">Voil&#x00E0; qui est fait.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034E9530"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034E9530">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">Vous avez&#x00A0;:&#x000A;  un titre&#x000A;  un un catalogue&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034E8FF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034E8FF0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Pr&#x00E9;ambule&#x000A;Une pi&#x00E8;ce vide, un mur blanc seulement avec un titre et un code-barre.&#x000A;&#x000A;Dans cette salle on trouve : vous-m&#x00EA;me et code-barre &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034E96F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034E96F0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Pr&#x00E9;ambule&#x000A;Une pi&#x00E8;ce vide, un mur blanc seulement avec un titre et un code-barre.&#x000A;&#x000A;Dans cette salle on trouve : vous-m&#x00EA;me et code-barre &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034E8D50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034E8D50">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Pr&#x00E9;ambule&#x000A;Une pi&#x00E8;ce vide, un mur blanc seulement avec un titre et un code-barre.&#x000A;&#x000A;Dans cette salle on trouve : vous-m&#x00EA;me et code-barre &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034E8F80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034E8F80">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Pr&#x00E9;ambule&#x000A;Une pi&#x00E8;ce vide, un mur blanc seulement avec un titre et un code-barre.&#x000A;&#x000A;Dans cette salle on trouve : vous-m&#x00EA;me et code-barre &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034E9140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034E9140">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Pr&#x00E9;ambule&#x000A;Une pi&#x00E8;ce vide, un mur blanc seulement avec un titre et un code-barre.&#x000A;&#x000A;Dans cette salle on trouve : vous-m&#x00EA;me et code-barre &#x000A;(Si tu te sens perdu, pense &#x00E0; CONSULTER le catalogue.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x034D11D8">
+    <command xml:space="preserve">truc</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;Quel est ton nom ?</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034D1168"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034D1168">
+    <command xml:space="preserve"> Truc </command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;Quel est ton nom ?</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034D12B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034D12B8">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(the catalogue)&#x000A;Le catalogue de l'exposition Feux p&#x00E2;les. Sa couverture est orange. Pour acc&#x00E9;der &#x00E0; une page ou section, CONSULTER L'INDEX ou CONSULTER SECTION &lt;titre de la section&gt;&#x000A;&#x000A;Quel est ton nom ?</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034D1328"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034D1328">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;Quel est ton nom ?</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x034D16A8">
+    <command xml:space="preserve">test m</command>
+    <result xml:space="preserve">&gt;--&gt; The following tests are available:&#x000A;'test me'&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034D1398"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034D1398">
+    <command xml:space="preserve">test me</command>
+    <result xml:space="preserve">(Testing.)&#x000A;&#x000A;&gt;[1] x me&#x000A;Tu es Jedermann N.A. En quoi &#x00E7;a consiste exactement ? Allez savoir. Tu tient un catalogue.&#x000A;&#x000A;&gt;[2] x titre&#x000A;Sur le mur blanc, "Feux p&#x00E2;les" en grande lettre noires sans s&#x00E9;rif. Un code-barre de grande dimension se trouve juste en dessous.&#x000A;&#x000A;&gt;[3] w&#x000A;&#x000A;L'inventaire du m&#x00E9;morable&#x000A;Dans cette premi&#x00E8;re salle, sont regroup&#x00E9;s dans trois grandes armoires des objets &#x00AB; merveilleux &#x00BB; comme un m&#x00E9;mento mori en forme de cr&#x00E2;ne, une horloge de table c&#x00F4;toyant des stalactites ou encore un ouvrage (ferm&#x00E9;) de C. Plinii 18. En dehors des vitrines, quatre moulages de bustes antiques c&#x00F4;toient des animaux naturalis&#x00E9;s. La curiosit&#x00E9; du visiteur poursuit sa d&#x00E9;couverte dans le trompe-l"&#x0153;il Scarabattolo de Domenico Remps.&#x000A;&#x000A;&gt;[4] e&#x000A;&#x000A;Pr&#x00E9;ambule&#x000A;Une pi&#x00E8;ce vide, un mur blanc seulement avec un titre et un code-barre.&#x000A;&#x000A;Il y a ici : yourself, titre and code-barre &#x000A;&gt;[5] contemple titre&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x034D1478">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">L'inventaire du m&#x00E9;morable&#x000A;Dans cette premi&#x00E8;re salle, sont regroup&#x00E9;s dans trois grandes armoires des objets &#x00AB; merveilleux &#x00BB; comme un m&#x00E9;mento mori en forme de cr&#x00E2;ne, une horloge de table c&#x00F4;toyant des stalactites ou encore un ouvrage (ferm&#x00E9;) de C. Plinii 18. En dehors des vitrines, quatre moulages de bustes antiques c&#x00F4;toient des animaux naturalis&#x00E9;s. La curiosit&#x00E9; du visiteur poursuit sa d&#x00E9;couverte dans le trompe-l"&#x0153;il Scarabattolo de Domenico Remps.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034D1638"/>
+      <child nodeId="node-0x034D17F8"/>
+      <child nodeId="node-0x034D15C8"/>
+      <child nodeId="node-0x0358CBB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034D1638">
+    <command xml:space="preserve">sud</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x034D17F8">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Un visiteur de mus&#x00E9;e &#x00E9;duqu&#x00E9; ne se permettrait jamais &#x00E7;a.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034D14E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034D14E8">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">Un visiteur de mus&#x00E9;e &#x00E9;duqu&#x00E9; ne se permettrait jamais &#x00E7;a.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034D1718"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034D1718">
+    <command xml:space="preserve">droite</command>
+    <result xml:space="preserve">Un visiteur de mus&#x00E9;e &#x00E9;duqu&#x00E9; ne se permettrait jamais &#x00E7;a.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034D1558"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034D1558">
+    <command xml:space="preserve">gauche</command>
+    <result xml:space="preserve">Un visiteur de mus&#x00E9;e &#x00E9;duqu&#x00E9; ne se permettrait jamais &#x00E7;a.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x034D15C8">
+    <command xml:space="preserve">ouest</command>
+    <result xml:space="preserve">L'inventaire du m&#x00E9;morable&#x000A;Dans cette premi&#x00E8;re salle, sont regroup&#x00E9;s dans trois grandes armoires des objets &#x00AB; merveilleux &#x00BB; comme un m&#x00E9;mento mori en forme de cr&#x00E2;ne, une horloge de table c&#x00F4;toyant des stalactites ou encore un ouvrage (ferm&#x00E9;) de C. Plinii 18. En dehors des vitrines, quatre moulages de bustes antiques c&#x00F4;toient des animaux naturalis&#x00E9;s. La curiosit&#x00E9; du visiteur poursuit sa d&#x00E9;couverte dans le trompe-l"&#x0153;il Scarabattolo de Domenico Remps.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034D1788"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034D1788">
+    <command xml:space="preserve">est</command>
+    <result xml:space="preserve">Pr&#x00E9;ambule&#x000A;Une pi&#x00E8;ce vide, un mur blanc seulement avec un titre et un code-barre.&#x000A;&#x000A;Dans cette salle on trouve : yourself, titre and code-barre &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034D1868"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034D1868">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034DEB28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034DEB28">
+    <command xml:space="preserve">gauche</command>
+    <result xml:space="preserve">L'inventaire du m&#x00E9;morable&#x000A;Dans cette premi&#x00E8;re salle, sont regroup&#x00E9;s dans trois grandes armoires des objets &#x00AB; merveilleux &#x00BB; comme un m&#x00E9;mento mori en forme de cr&#x00E2;ne, une horloge de table c&#x00F4;toyant des stalactites ou encore un ouvrage (ferm&#x00E9;) de C. Plinii 18. En dehors des vitrines, quatre moulages de bustes antiques c&#x00F4;toient des animaux naturalis&#x00E9;s. La curiosit&#x00E9; du visiteur poursuit sa d&#x00E9;couverte dans le trompe-l"&#x0153;il Scarabattolo de Domenico Remps.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0358CBB0">
+    <command xml:space="preserve">est</command>
+    <result xml:space="preserve">Pr&#x00E9;ambule&#x000A;Une pi&#x00E8;ce vide, des murs blancs, le Mus&#x00E9;e d'art Contemporain de Bordeaux en 1991. &#x000A; &#x00C0; l'ouest se trouve l'Inventaire du m&#x00E9;morable.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0358BF00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0358BF00">
+    <command xml:space="preserve">x murs</command>
+    <result xml:space="preserve">Tous les murs sont blancs immacul&#x00E9;s, celui d'en face annonce le titre et pr&#x00E9;sente un curieux code-barre, celui de droite un tableau signal&#x00E9;tique .&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0358C4B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0358C4B0">
+    <command xml:space="preserve">x code barre</command>
+    <result xml:space="preserve">Le code-barres est celui de l'exposition, il repr&#x00E9;sente le produit fourni par l'agence ready-made appartiennent &#x00E0; tout le monde &#x00AE;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0358C1A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0358C1A0">
+    <command xml:space="preserve">x titre</command>
+    <result xml:space="preserve">Le texte en police Helvetica lit "Feux p&#x00E2;les Exposition re&#x0301;alise&#x0301;e avec le concours de l'agence les ready-made appartiennent &#x00E0; tout le monde" Un code-barre de grande dimension se trouve juste en dessous.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0358C590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0358C590">
+    <command xml:space="preserve">x tableau</command>
+    <result xml:space="preserve">Sur le mur dans le couloir de droite, le sommaire de l'exposition est donn&#x00E9; au visiteur, les chapitres sont num&#x00E9;rot&#x00E9;s. Pour ce cartel de l'exposition, l'artiste utilise un tableau de signal&#x00E9;tique rarement employ&#x00E9; en institution mus&#x00E9;ale, il rappelle des codes bureaucratiques de &#x00AB; l'agence &#x00BB;. Le nom des salles/chapitres est rappel&#x00E9; avec le m&#x00EA;me type de tableau/cartel &#x00E0; l'entr&#x00E9;e de chaque grande partie du projet: chapitres 1 et 2 ; chapitres 3 &#x00E0; 6 ; chapitres 7 &#x00E0; 11.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0358C600"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0358C600">
+    <command xml:space="preserve">x pancarte</command>
+    <result xml:space="preserve">Sur le mur dans le couloir de droite, le sommaire de l'exposition est donn&#x00E9; au visiteur, les chapitres sont num&#x00E9;rot&#x00E9;s. Pour ce cartel de l'exposition, l'artiste utilise un tableau de signal&#x00E9;tique rarement employ&#x00E9; en institution mus&#x00E9;ale, il rappelle des codes bureaucratiques de &#x00AB; l'agence &#x00BB;. Le nom des salles/chapitres est rappel&#x00E9; avec le m&#x00EA;me type de tableau/cartel &#x00E0; l'entr&#x00E9;e de chaque grande partie du projet: chapitres 1 et 2 ; chapitres 3 &#x00E0; 6 ; chapitres 7 &#x00E0; 11.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0358C6E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0358C6E0">
+    <command xml:space="preserve">x entr&#x00E9;e</command>
+    <result xml:space="preserve">Vous ne voyez rien de tel, &#x00E0; moins que cela ne soit sans grande importance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0358C050"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0358C050">
+    <command xml:space="preserve">scanner code barre</command>
+    <result xml:space="preserve">Pas de smartphone en 1991&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0358C830"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0358C830">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">L'inventaire du m&#x00E9;morable&#x000A;Dans cette premi&#x00E8;re salle, sont regroup&#x00E9;s dans trois grandes armoires des objets &#x00AB; merveilleux &#x00BB; comme un m&#x00E9;mento mori en forme de cr&#x00E2;ne, une horloge de table c&#x00F4;toyant des stalactites ou encore un ouvrage (ferm&#x00E9;) de C. Plinii 18. En dehors des vitrines, quatre moulages de bustes antiques c&#x00F4;toient des animaux naturalis&#x00E9;s. La curiosit&#x00E9; du visiteur poursuit sa d&#x00E9;couverte dans le trompe-l"&#x0153;il Scarabattolo de Domenico Remps.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0358CAD0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0358CAD0">
+    <command xml:space="preserve">x murs</command>
+    <result xml:space="preserve">Vous ne voyez rien de tel, &#x00E0; moins que cela ne soit sans grande importance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0358C8A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0358C8A0">
+    <command xml:space="preserve">x moi</command>
+    <result xml:space="preserve">Votre nom est Jedermann N.A. &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0358C910"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0358C910">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">Vous avez&#x00A0;:&#x000A;  un portefeuille (ferm&#x00E9;)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0358CC90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0358CC90">
+    <command xml:space="preserve">x portefeuille</command>
+    <result xml:space="preserve">Un portefeuille tout ce qu'il y a de plus classique.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0358CD00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0358CD00">
+    <command xml:space="preserve">ouvrir portefeuille</command>
+    <result xml:space="preserve">Vous ouvrez le portefeuille, r&#x00E9;v&#x00E9;lant une carte d'identit&#x00E9;, un ticket d'entr&#x00E9;e et une CB.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0358CD70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0358CD70">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">Vous avez&#x00A0;:&#x000A;  un portefeuille (ouvert)&#x000A;    une carte d'identit&#x00E9;&#x000A;    un ticket d'entr&#x00E9;e&#x000A;    une CB&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0358C360"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0358C360">
+    <command xml:space="preserve">prendre cb</command>
+    <result xml:space="preserve">&#x00C7;a fait mieux de rester dans le portefeuille&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0358CC20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0358CC20">
+    <command xml:space="preserve">lacher portefeuille</command>
+    <result xml:space="preserve">Mieux vaut ne pas se s&#x00E9;parer de cet objet&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0356C758"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0356C758">
+    <command xml:space="preserve">lacher cb</command>
+    <result xml:space="preserve">Vous n'avez pas cela.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0356C838"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0356C838">
+    <command xml:space="preserve">donner cb</command>
+    <result xml:space="preserve">[Je n'ai pas compris cette phrase.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x034DEAB8">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">Tu es Jedermann N.A. En quoi &#x00E7;a consiste exactement ? Allez savoir. Tu tiens un catalogue.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034DEC08"/>
+      <child nodeId="node-0x034DDF58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034DEC08">
+    <command xml:space="preserve">x g</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034DEB98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034DEB98">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034DE658"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034DE658">
+    <command xml:space="preserve">gauche</command>
+    <result xml:space="preserve">L'inventaire du m&#x00E9;morable&#x000A;Dans cette premi&#x00E8;re salle, sont regroup&#x00E9;s dans trois grandes armoires des objets &#x00AB; merveilleux &#x00BB; comme un m&#x00E9;mento mori en forme de cr&#x00E2;ne, une horloge de table c&#x00F4;toyant des stalactites ou encore un ouvrage (ferm&#x00E9;) de C. Plinii 18. En dehors des vitrines, quatre moulages de bustes antiques c&#x00F4;toient des animaux naturalis&#x00E9;s. La curiosit&#x00E9; du visiteur poursuit sa d&#x00E9;couverte dans le trompe-l"&#x0153;il Scarabattolo de Domenico Remps.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x034DDF58">
+    <command xml:space="preserve">x moi</command>
+    <result xml:space="preserve">Tu es Jedermann N.A. En quoi &#x00E7;a consiste exactement ? Allez savoir. Tu tiens un catalogue.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034DE268"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034DE268">
+    <command xml:space="preserve">x mur</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034DDEE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034DDEE8">
+    <command xml:space="preserve">test me</command>
+    <result xml:space="preserve">(Testing.)&#x000A;&#x000A;&gt;[1] x me&#x000A;Tu es Jedermann N.A. En quoi &#x00E7;a consiste exactement ? Allez savoir. Tu tiens un catalogue.&#x000A;&#x000A;&gt;[2] x titre&#x000A;Sur le mur blanc, "Feux p&#x00E2;les" en grande lettre noires sans s&#x00E9;rif. Un code-barre de grande dimension se trouve juste en dessous.&#x000A;&#x000A;&gt;[3] g&#x000A;Sur le mur blanc, "Feux p&#x00E2;les" en grande lettre noires sans s&#x00E9;rif. Un code-barre de grande dimension se trouve juste en dessous.&#x000A;&#x000A;&gt;[4] d&#x000A;Which do you mean, the est or en bas?&#x000A;&#x000A;&gt;[5] contemple titre&#x000A;Sur le mur blanc, "Feux p&#x00E2;les" en grande lettre noires sans s&#x00E9;rif. Un code-barre de grande dimension se trouve juste en dessous.&#x000A;&#x000A;&gt;[6] o&#x000A;Sorry, that can't be corrected.&#x000A;&#x000A;&gt;[7] frappe le mur&#x000A;I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x034DEA48">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034DE498"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034DE498">
+    <command xml:space="preserve">gauche</command>
+    <result xml:space="preserve">L'inventaire du m&#x00E9;morable&#x000A;Dans cette premi&#x00E8;re salle, sont regroup&#x00E9;s dans trois grandes armoires des objets &#x00AB; merveilleux &#x00BB; comme un m&#x00E9;mento mori en forme de cr&#x00E2;ne, une horloge de table c&#x00F4;toyant des stalactites ou encore un ouvrage (ferm&#x00E9;) de C. Plinii 18. En dehors des vitrines, quatre moulages de bustes antiques c&#x00F4;toient des animaux naturalis&#x00E9;s. La curiosit&#x00E9; du visiteur poursuit sa d&#x00E9;couverte dans le trompe-l"&#x0153;il Scarabattolo de Domenico Remps.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034DE2D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034DE2D8">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034DE1F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034DE1F8">
+    <command xml:space="preserve">droite</command>
+    <result xml:space="preserve">Pr&#x00E9;ambule&#x000A;Une pi&#x00E8;ce vide, un mur blanc seulement avec un titre et un code-barre.&#x000A;&#x000A;Dans cette salle on trouve : yourself, titre and code-barre &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x034DE348">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Pr&#x00E9;ambule&#x000A;Une pi&#x00E8;ce vide, un mur blanc seulement avec un titre et un code-barre.&#x000A;&#x000A;Dans cette salle on trouve : yourself, titre and code-barre &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034DE428"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034DE428">
+    <command xml:space="preserve">comment on mange des poulpes ?</command>
+    <result xml:space="preserve">Feux p&#x00E2;les ne fonctionne qu'avec des instruction comme "&gt;examine a titre", mais pas des questions. Pour plus d'aide, essaie HELP.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x034DDE78">
+    <command xml:space="preserve">x moi</command>
+    <result xml:space="preserve">Votre nom est Jedermann N.A. &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034DDCB8"/>
+      <child nodeId="node-0x0356C678"/>
+      <child nodeId="node-0x0356CC28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034DDCB8">
+    <command xml:space="preserve">dal;ksjf</command>
+    <result xml:space="preserve">[Je n'ai pas compris cette phrase.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0356C678">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">Vous avez&#x00A0;:&#x000A;  un portefeuille (ferm&#x00E9;)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0356BE28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0356BE28">
+    <command xml:space="preserve">ouvrir portefeuille</command>
+    <result xml:space="preserve">Vous ouvrez le portefeuille, r&#x00E9;v&#x00E9;lant une carte d'identit&#x00E9;, un ticket d'entr&#x00E9;e et une CB.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0356BDB8"/>
+      <child nodeId="node-0x0356BF08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0356BDB8">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">Vous avez&#x00A0;:&#x000A;  un portefeuille (ouvert)&#x000A;    une carte d'identit&#x00E9;&#x000A;    un ticket d'entr&#x00E9;e&#x000A;    une CB&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0356C4B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0356C4B8">
+    <command xml:space="preserve">x cb</command>
+    <result xml:space="preserve">Un morceau de plastique bien commun pour un compte en banque bien rempli.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0356C918"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0356C918">
+    <command xml:space="preserve">prendre cb</command>
+    <result xml:space="preserve">Voil&#x00E0; qui est fait.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0356CB48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0356CB48">
+    <command xml:space="preserve">take cb</command>
+    <result xml:space="preserve">Vous l'avez d&#x00E9;j&#x00E0;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0356C988"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0356C988">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">Vous avez&#x00A0;:&#x000A;  une CB&#x000A;  un portefeuille (ouvert)&#x000A;    une carte d'identit&#x00E9;&#x000A;    un ticket d'entr&#x00E9;e&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0356BF08">
+    <command xml:space="preserve">x cb</command>
+    <result xml:space="preserve">Un morceau de plastique bien commun pour un compte en banque bien rempli.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0356C368"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0356C368">
+    <command xml:space="preserve">prendre cb</command>
+    <result xml:space="preserve">Ca fait mieux de rester dans le portefeuille&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0356BFE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0356BFE8">
+    <command xml:space="preserve">lacher portefeuille</command>
+    <result xml:space="preserve">non&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0356C058"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0356C058">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">Vous avez&#x00A0;:&#x000A;  un portefeuille (ouvert)&#x000A;    une carte d'identit&#x00E9;&#x000A;    un ticket d'entr&#x00E9;e&#x000A;    une CB&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0356CC28">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">L'inventaire du m&#x00E9;morable&#x000A;Dans cette premi&#x00E8;re salle, sont regroup&#x00E9;s dans trois grandes armoires des objets &#x00AB; merveilleux &#x00BB; comme un m&#x00E9;mento mori en forme de cr&#x00E2;ne, une horloge de table c&#x00F4;toyant des stalactites ou encore un ouvrage (ferm&#x00E9;) de C. Plinii 18. En dehors des vitrines, quatre moulages de bustes antiques c&#x00F4;toient des animaux naturalis&#x00E9;s. La curiosit&#x00E9; du visiteur poursuit sa d&#x00E9;couverte dans le trompe-l"&#x0153;il Scarabattolo de Domenico Remps.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x034DE738">
+    <command xml:space="preserve">lkj;kj</command>
+    <result xml:space="preserve">[Je n'ai pas compris cette phrase.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034DE8F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034DE8F8">
+    <command xml:space="preserve">mange</command>
+    <result xml:space="preserve">[Je n'ai pas compris cette phrase.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034DE7A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034DE7A8">
+    <command xml:space="preserve">mange titre</command>
+    <result xml:space="preserve">[Je n'ai pas compris cette phrase.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034DDFC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034DDFC8">
+    <command xml:space="preserve">le frapper</command>
+    <result xml:space="preserve">[Je ne suis pas s&#x00FB;r de ce &#x00E0; quoi &#x00AB;&#x00A0;-le&#x00A0;&#x00BB; se r&#x00E9;f&#x00E8;re.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034DE188"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034DE188">
+    <command xml:space="preserve">frapper titre</command>
+    <result xml:space="preserve">Un visiteur de mus&#x00E9;e &#x00E9;duqu&#x00E9; ne se permettrait jamais &#x00E7;a.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x034DE3B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x034DE3B8">
+    <command xml:space="preserve">embrasser titre</command>
+    <result xml:space="preserve">Vous ne pouvez agir ainsi qu'avec une chose dou&#x00E9;e de conscience.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>

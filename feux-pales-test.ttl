@@ -1,0 +1,112 @@
+PREFIX bot: <https://w3id.org/bot#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX display: <https://w3id.org/display#>
+PREFIX exhib: <https://ouvroir.umontreal.ca/data/>
+PREFIX la: <https://linked.art/ns/terms/>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX aat: <http://vocab.getty.edu/aat/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+#########################################################
+# Feux pâles selon Display                              #
+# Encodage réalisé par David Valentine et Zoë Renaudie  #
+#########################################################
+
+########################################################
+# Préambule
+########################################################
+
+exhib:space0000 rdfs:label "Préambule"@fr ;
+  bot:adjacentZone exhib:space0001 ; # Symmetric
+  display:containsExhibit exhib:exhibit0001 , # inféré?
+    exhib:exhibit0002 ,
+    exhib:exhibit0003 ,
+    exhib:exhibit0004 ;
+  display:adjacentExhibit exhib:element0004 ,
+    exhib:element0005 ,
+    exhib:element0006 ,
+    exhib:element0007 .
+
+exhib:exhibit0001 a display:Exhibit ;
+  display:faces exhib:element0005 .
+
+exhib:exhibit0002 a display:Exhibit ;
+  rdf:value "Feux pâles" ;
+  display:above exhib:exhibit0001 .
+
+exhib:exhibit0003 a display:Exhibit ;
+  rdfs:label "Crédits"@fr ;
+  rdf:value "Exposition réalisée avec le concours de l’agence les readymade appartiennent à tout le monde ®" ;
+  display:below exhib:exhibit0001 .
+
+# Sommaire de l’exposition
+exhib:exhibit0004 a display:Exhibit .
+
+exhib:element0004 a display:Element ;
+  rdfs:label "Cimaise du code-barres"@fr ;
+  rdfs:comment "Cloison (cimaise) qui sert de support à exhib:exhibit0001. Identifié comme mur A dans le rapport"@fr .
+
+exhib:element0005 a display:Element ;
+  rdfs:label "Cimaise du préambule"@fr .
+
+exhib:element0006 a display:Element ;
+  rdfs:label "cimaise faisant face au mur de la porte d’entrée"@fr .
+
+exhib:element0007 a display:Element ;
+  rdfs:label "mur de la porte d’entrée"@fr ;
+  display:faces exhib:element0006 ;
+  bot:hasSubElement exhib:element0008 .
+
+exhib:element0008 a display:Element ;
+  rdfs:label "Porte d’entrée"@fr .
+
+########################################################
+# Salle 1
+########################################################
+
+exhib:space0001 a display:ExhibitionSpace ;
+  rdfs:label "salle 1 : Inventaire du mémorable"@fr ;
+  bot:adjacentZone exhib:space0005 ; # Symmetric
+  display:hasExhibitionSpace exhib:space0002 , # transitive par bot:containsZone
+    exhib:space0003 ,
+    exhib:space0004 .
+
+# Spaces contained in exhib:space0001
+# peut être inféré si on déclare par ex. display:hasExhibitionSpace
+exhib:space0002 display:adjacentExhibit exhib:element0010 ;
+  rdfs:label "haut de la salle 1"@fr .
+
+exhib:space0003 a display:ExhibitionSpace ;
+  rdfs:label "espace Remps"@fr ;
+  display:adjacentExhibit exhib:element0009 ,
+    exhib:element0010 ,
+    exhib:element0011 ,
+    exhib:element0012 ;
+  display:containsExhibit exhib:display001 . # attention : n’est pas member_of set
+
+
+exhib:space0005 a display:ExhibitionSpace ;
+  rdfs:label "salle 2 : Le cabinets d’amateurs"@fr ;
+  display:containsExhibit exhib:exhibit0021 ,
+    exhib:exhibit0022 ,
+    exhib:exhibit0023 ,
+    exhib:exhibit0024 ,
+    exhib:exhibit0025 .
+
+exhib:exhibit0006 a display:Exhibit ;
+  rdfs:label "Buste de Platon"@fr ;
+  display:liesOn exhib:element0014 ;
+  display:inFrontOf exhib:element0010 ;
+  display:leftOf exhib:element0015 .
+
+
+exhib:element0025 a display:Element ;
+  rdfs:comment "n’est pas typé actuellement (2024-11-22)" ;
+  rdfs:label "vitrine archive"@fr ;
+  display:inFrontOf exhib:element0026 ;
+  display:contains exhib:exhibit0026 ,
+    exhib:exhibit0027 ,
+    exhib:exhibit0028 ,
+    exhib:exhibit0029 ,
+    exhib:exhibit0030 .
